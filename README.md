@@ -4,75 +4,44 @@
 
 ---
 
-## ⚡ Szybki Start (TL;DR)
+## ⚡ Szybki Start (Automatyczny)
 
-Skopiuj i wklej poniższą komendę w terminalu WSL (Ubuntu), aby uruchomić projekt w kilka sekund:
+Dzięki pełnej automatyzacji, uruchomienie projektu sprowadza się do dwóch prostych kroków:
 
+### 1. Klonowanie repozytorium
+Otwórz terminal WSL (Ubuntu) i wpisz:
 ```bash
-git clone https://github.com/r0jooo/date-roulette.git && cd date-roulette && npm install && npm run dev
+git clone https://github.com/r0jooo/date-roulette.git && cd date-roulette
 ```
 
----
-
-## 🐧 Pełna Instrukcja WSL Ubuntu
-
-### Krok 1: Środowisko
-Upewnij się, że masz zainstalowany Node.js (wersja 18 lub nowsza). Jeśli nie masz środowiska Node, wykonaj poniższe komendy w terminalu Ubuntu (WSL):
-
-#### Instalacja NVM (Node Version Manager):
+### 2. Instalacja i Automatyczna Konfiguracja
+Uruchom poniższą komendę. **npm install** automatycznie zainstaluje zależności, skonfiguruje autostart (PM2) oraz utworzy komendę `date-start` w Twoim systemie:
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-```
-*(Po tej komendzie zamknij i otwórz terminal ponownie).*
-
-#### Instalacja Node.js:
-```bash
-nvm install --lts
-```
-
-Sprawdź wersję:
-```bash
-node -v
-```
-
-### Krok 2: Instalacja
-Jeśli nie użyłeś Szybkiego Startu, wykonaj standardową instalację:
-```bash
-git clone https://github.com/r0jooo/date-roulette.git
-cd date-roulette
 npm install
 ```
 
-### Krok 3: Uruchomienie
-Wystartuj serwer deweloperski:
-```bash
-npm run dev
-```
-🌐 Aplikacja jest dostępna pod adresem: **[http://localhost:3000](http://localhost:3000)**
+---
+
+## 🌍 Komendy Globalne
+
+Po zakończeniu instalacji możesz zarządzać projektem z dowolnego miejsca w terminalu:
+
+*   `date-start` – ręczne uruchomienie serwera.
+*   `date-stop` – zatrzymanie serwera i zwolnienie portu 3000.
 
 ---
 
-## 🔄 Aktualizacja projektu
+## 🛠 Rozwiązywanie problemów (Troubleshooting)
 
-Aby pobrać najnowsze funkcje i poprawki, wykonaj wewnątrz folderu projektu:
-
-```bash
-git pull && npm install
-```
-
----
-
-## 🛠 Centrum Pomocy (Troubleshooting)
-
-| Problem | Rozwiązanie (Komenda) |
+| Problem | Rozwiązanie |
 | :--- | :--- |
 | **Brak Node.js** | Zainstaluj przez NVM: `nvm install --lts` |
-| **Port 3000 zajęty** | Zwolnij port: `sudo fuser -k 3000/tcp` |
-| **Błąd grid.svg (404)** | Upewnij się, że plik istnieje w `public/grid.svg` |
+| **Błąd uprawnień** | Skrypt setup może poprosić o hasło `sudo` do utworzenia komend globalnych. |
+| **Port 3000 zajęty** | Użyj komendy `date-stop` lub `sudo fuser -k 3000/tcp`. |
 
 ---
 
-## 📁 Struktura src/
-*   `app/` – Strumień stron i layoutów (Next.js).
-*   `components/` – Moduły interfejsu użytkownika.
-*   `data/` – Baza pomysłów na randki.
+## 📁 Struktura projektu
+*   `src/app/` – Strona główna i layouty.
+*   `src/components/` – Moduły interfejsu.
+*   `scripts/` – Skrypty automatyzacji instalacji.
