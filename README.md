@@ -1,66 +1,83 @@
-# Date Roulette
+# 🎡 Date Roulette
 
-Aplikacja "Date Roulette" została zaprojektowana do pracy w **100% lokalnie i offline**. GitHub służy wyłącznie do udostępniania kodu źródłowego.
+**Date Roulette** to prosty i estetyczny generator pomysłów na randki, stworzony z myślą o użytkownikach, którzy chcą urozmaicić swój czas wolny bez zbędnego planowania.
 
-## Opis projektu
+---
 
-"Date Roulette" to interaktywna aplikacja webowa w języku polskim, która pomaga losować pomysły na randkę z lokalnej bazy danych. Wszystkie dane są przechowywane wewnątrz projektu, co zapewnia pełną prywatność i szybkość działania bez dostępu do Internetu.
+## 🛠 Wymagania wstępne (Prerequisites)
 
-## Szybki start (Lokalnie)
+Zanim zaczniesz, upewnij się, że masz przygotowane środowisko:
+*   **WSL Ubuntu** (zainstalowane i skonfigurowane).
+*   **Node.js** (zalecana wersja **18 lub nowsza**).
 
-### 1. Automatyczny Setup (Linux/macOS)
-Uruchom skrypt, aby automatycznie zainstalować zależności:
+Aby sprawdzić, czy masz zainstalowany Node.js, wpisz w terminalu:
 ```bash
-./setup.sh
+node -v
 ```
 
-### 2. Uruchomienie deweloperskie
+---
+
+## 🚀 Instrukcja instalacji krok po kroku
+
+Wykonaj poniższe kroki w terminalu Twojego Ubuntu (WSL):
+
+### 1. Klonowanie repozytorium
+```bash
+git clone https://github.com/r0jooo/date-roulette.git
+```
+
+### 2. Wejście do folderu projektu
+```bash
+cd date-roulette
+```
+
+### 3. Instalacja bibliotek
+```bash
+npm install
+```
+
+---
+
+## 🏃‍♂️ Uruchamianie aplikacji
+
+Aby wystartować serwer deweloperski, użyj komendy:
 ```bash
 npm run dev
 ```
-Otwórz [http://localhost:3000](http://localhost:3000) w przeglądarce.
 
-> [!TIP]
-> Jeśli używasz **WSL Ubuntu** i potrzebujesz bardziej szczegółowej instrukcji (np. instalacja Node.js/nvm), sprawdź plik [INSTALL_WSL.md](file:///home/user/projects/date-roulette/INSTALL_WSL.md).
-
+🌐 **Dostęp z Windowsa:**
+Po uruchomieniu komendy w WSL, Twoja aplikacja będzie dostępna bezpośrednio w przeglądarce pod adresem:
+**[http://localhost:3000](http://localhost:3000)**
 
 ---
 
-## Docker (Zalecane)
+## 📁 Struktura plików
 
-Jeśli masz zainstalowanego Dockera, możesz uruchomić aplikację jedną komendą, nie martwiąc się o środowisko Node.js:
+Oto krótka legenda dotycząca tego, co znajdziesz w folderze `src/`:
 
+*   `src/app/` – Główne strony i layouty aplikacji (Next.js App Router).
+*   `src/components/` – Podzielone na mniejsze części elementy interfejsu (np. przyciski, karty).
+*   `src/data/` – Pliki JSON lub stałe z bazą pomysłów na randki.
+
+---
+
+## 🔧 Rozwiązywanie problemów (Troubleshooting)
+
+### Błąd portu (EADDRINUSE)
+Jeśli zobaczysz błąd mówiący, że port 3000 jest już zajęty, możesz go szybko zwolnić komendą:
+
+```bash
+sudo fuser -k 3000/tcp
+```
+
+Następnie spróbuj ponownie uruchomić `npm run dev`.
+
+---
+
+## 🐳 Alternatywa: Docker
+
+Jeśli wolisz Docker, możesz uruchomić projekt jedną komendą:
 ```bash
 docker-compose up
 ```
-Aplikacja będzie dostępna pod adresem `localhost:3000`.
-
----
-
-## Rozwiązywanie problemów
-
-### Błąd: Port 3000 jest już w użyciu
-Jeśli zobaczysz błąd informujący, że port 3000 jest zajęty, możesz uruchomić aplikację na innym porcie:
-
-**NPM:**
-```bash
-PORT=3001 npm run dev
-```
-
-**Docker:**
-Zmień mapowanie portów w `docker-compose.yml`:
-```yaml
-ports:
-  - "3001:3000"
-```
-
-### Problemy z instalacją modułów
-Upewnij się, że masz zainstalowaną wersję Node.js 18 lub nowszą. Jeśli błędy nadal występują, spróbuj usunąć folder `node_modules` i uruchomić `./setup.sh` ponownie.
-
----
-
-## Stos technologiczny lokalny
-
-- **Next.js**: Framework React.
-- **Tailwind CSS**: Stylowanie.
-- **Local JSON/Data**: Brak zewnętrznych baz danych czy API.
+*(Wymaga zainstalowanego Docker Desktop z włączoną integracją WSL).*
