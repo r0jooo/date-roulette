@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "serve": "pm2 start npm --name date-roulette -- run dev"
   },
   "dependencies": {
     "next": "16.1.3",

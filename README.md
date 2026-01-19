@@ -52,6 +52,25 @@ npm run dev
 
 ---
 
+## 🚀 Instalacja z Autostartem (PM2)
+
+Jeśli chcesz, aby serwer aplikacji startował automatycznie przy każdym uruchomieniu terminala WSL Ubuntu, wykonaj jednorazowo:
+
+```bash
+sh setup-autostart.sh
+```
+
+### ⚠️ Ważna uwaga techniczna dotycząca WSL
+W środowisku WSL (Windows Subsystem for Linux), autostart zadziała w momencie:
+1.  **Uruchomienia terminala WSL** przez użytkownika.
+2.  **Startu systemu Windows** – tylko jeśli masz włączoną obsługę `systemd` w pliku `/etc/wsl.conf`:
+    ```ini
+    [boot]
+    systemd=true
+    ```
+
+---
+
 ## 🔄 Aktualizacja projektu
 
 Aby pobrać najnowsze funkcje i poprawki, wykonaj wewnątrz folderu projektu:
