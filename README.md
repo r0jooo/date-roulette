@@ -4,6 +4,43 @@
 
 ---
 
+## 💻 Instalacja WSL i Ubuntu (Windows)
+
+Jeśli nie masz jeszcze przygotowanego środowiska Linux, wykonaj te kroki:
+
+1.  **Uruchom PowerShell** jako administrator.
+2.  **Wpisz komendę instalacji**:
+    ```powershell
+    wsl --install
+    ```
+3.  **Zrestartuj komputer** po zakończeniu procesu.
+4.  **Skonfiguruj Ubuntu**: Po restarcie otworzy się okno terminala. Podaj swoją nazwę użytkownika i hasło (hasło nie będzie widoczne podczas wpisywania).
+
+> [!TIP]
+> Jeśli masz już WSL, ale potrzebujesz dystrybucji Ubuntu, wpisz: `wsl --install -d Ubuntu`.
+
+---
+
+## 🟢 Instalacja Node.js i NVM (Ubuntu/WSL)
+
+Aby zainstalować Node.js w najlepszy możliwy sposób, użyj menedżera wersji **NVM**:
+
+1.  **Zainstaluj NVM** komendą w terminalu Ubuntu:
+    ```bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    ```
+2.  **Odśwież terminal**: Zamknij i otwórz ponownie okno Ubuntu lub wpisz `source ~/.bashrc`.
+3.  **Zainstaluj Node.js (LTS)**:
+    ```bash
+    nvm install --lts
+    ```
+4.  **Sprawdź poprawność**:
+    ```bash
+    node -v
+    ```
+
+---
+
 ## ⚡ Szybki Start (Automatyczny)
 
 Dzięki pełnej automatyzacji, uruchomienie projektu sprowadza się do dwóch prostych kroków:
