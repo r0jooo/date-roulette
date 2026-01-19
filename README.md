@@ -20,6 +20,10 @@ npm run dev
 ```
 Otwórz [http://localhost:3000](http://localhost:3000) w przeglądarce.
 
+> [!TIP]
+> Jeśli używasz **WSL Ubuntu** i potrzebujesz bardziej szczegółowej instrukcji (np. instalacja Node.js/nvm), sprawdź plik [INSTALL_WSL.md](file:///home/user/projects/date-roulette/INSTALL_WSL.md).
+
+
 ---
 
 ## Docker (Zalecane)
