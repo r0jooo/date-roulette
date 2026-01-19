@@ -17,7 +17,20 @@ git clone https://github.com/r0jooo/date-roulette.git && cd date-roulette && npm
 ## 🐧 Pełna Instrukcja WSL Ubuntu
 
 ### Krok 1: Środowisko
-Upewnij się, że masz zainstalowany Node.js (wersja 18 lub nowsza). Sprawdzisz to komendą:
+Upewnij się, że masz zainstalowany Node.js (wersja 18 lub nowsza). Jeśli nie masz środowiska Node, wykonaj poniższe komendy w terminalu Ubuntu (WSL):
+
+#### Instalacja NVM (Node Version Manager):
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+*(Po tej komendzie zamknij i otwórz terminal ponownie).*
+
+#### Instalacja Node.js:
+```bash
+nvm install --lts
+```
+
+Sprawdź wersję:
 ```bash
 node -v
 ```
