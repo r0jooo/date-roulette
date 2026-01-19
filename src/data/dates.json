@@ -1,0 +1,2305 @@
+[
+    {
+        "id": 1,
+        "title": "Piknik pod Gwiazdami",
+        "description": "Spakujcie ciepły koc, gorącą czekoladę i przekąski. Jedźcie w miejsce z dala od miejskich świateł i spędźcie wieczór na zgadywaniu gwiazdozbiorów.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 2,
+        "title": "Wyzwanie w Lumpeksie",
+        "description": "Ustalcie budżet 40 zł na osobę. Wybierzcie dla siebie nawzajem strój na późniejszą kolację.",
+        "budget": "Niski",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 3,
+        "title": "Domowe Sushi",
+        "description": "Kupcie zestaw do robienia sushi i składniki. Spróbujcie razem zrobić własne rolki w domu.",
+        "budget": "Średni",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 4,
+        "title": "Wycieczka do Muzeum",
+        "description": "Odwiedźcie lokalne muzeum lub galerię sztuki, w której jeszcze nie byliście. Potem skoczcie na kawę i omówcie ulubione dzieła.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 5,
+        "title": "Wędrówka o Zachodzie Słońca",
+        "description": "Znajdźcie szlak z dobrym widokiem. Wejdźcie na górę, by obejrzeć zachód słońca, a potem zejdźcie (weźcie latarki!).",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 6,
+        "title": "Warsztaty Garncarskie",
+        "description": "Zapiszcie się na lekcję garncarstwa dla początkujących. Będzie brudno, dotykowo i może zrobicie kubek (lub kleksa).",
+        "budget": "Wysoki",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 7,
+        "title": "Escape Room",
+        "description": "Sprawdźcie swoją pracę zespołową i umiejętności rozwiązywania zagadek, próbując wydostać się z pokoju w mniej niż 60 minut.",
+        "budget": "Wysoki",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 8,
+        "title": "Śniadanie na Targu",
+        "description": "Idźcie wcześnie na lokalny targ. Kupcie świeże wypieki, owoce i kawę, a potem zjedzcie je na pobliskiej ławce.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 9,
+        "title": "Maraton Gier Planszowych",
+        "description": "Odwiedźcie kawiarnię z planszówkami lub wyciągnijcie własną kolekcję. Grajcie do 3 wygranych. Przegrany stawia lody.",
+        "budget": "Niski",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 10,
+        "title": "Kino Samochodowe",
+        "description": "Znajdźcie kino samochodowe lub ustawcie projektor w ogrodzie/salonie z popcornem i napojami.",
+        "budget": "Średni",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 11,
+        "title": "Wieczór Karaoke",
+        "description": "Wynajmijcie prywatny pokój karaoke lub idźcie do baru. Śpiewajcie ulubione duety, nie przejmując się fałszowaniem.",
+        "budget": "Średni",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 12,
+        "title": "Wspólny Wolontariat",
+        "description": "Spędźcie kilka godzin pomagając w schronisku dla zwierząt lub banku żywności. Dobrze jest razem czynić dobro.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 13,
+        "title": "Rajd po Food Truckach",
+        "description": "Znajdźcie zlot food trucków. Zamówcie po jednej małej rzeczy z 3-4 różnych wozów i dzielcie się jedzeniem.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 14,
+        "title": "Spacer po Ogrodzie Botanicznym",
+        "description": "Przespacerujcie się po ogrodzie botanicznym. Jest spokojnie, pięknie i idealnie do rozmowy.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 15,
+        "title": "Tajemnicza Przejażdżka",
+        "description": "Rzućcie monetą na każdym skrzyżowaniu. Orzeł = Prawo, Reszka = Lewo. Jedźcie tak przez 20 minut i zwiedzajcie, gdziekolwiek dotrzecie.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 16,
+        "title": "Wieczór Barmański",
+        "description": "Znajdźcie 3 przepisy na fikuśne koktajle/mocktajle. Kupcie składniki i bądźcie dla siebie barmanami.",
+        "budget": "Średni",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 17,
+        "title": "Poszukiwanie Geocache",
+        "description": "Pobierzcie aplikację do Geocachingu i szukajcie ukrytych skarbów w waszym mieście.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 18,
+        "title": "Stand-up",
+        "description": "Idźcie do lokalnego klubu komediowego. Śmiech to najlepszy lodołamacz (i sposób na rozładowanie napięcia).",
+        "budget": "Średni",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 19,
+        "title": "Salon Gier VR",
+        "description": "Walczcie z zombie lub odkrywajcie nowe światy razem w wirtualnej rzeczywistości.",
+        "budget": "Wysoki",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 20,
+        "title": "Przeglądanie Płyt Winylowych",
+        "description": "Szperajcie w skrzynkach z winylami w lokalnym sklepie muzycznym. Wybierzcie album wyłącznie na podstawie okładki.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 21,
+        "title": "Śniadanie o Wschodzie Słońca",
+        "description": "Wstańcie o wiele za wcześnie, pojedźcie na punkt widokowy obejrzeć wschód słońca, a potem idźcie do knajpy całodobowej.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 22,
+        "title": "Podchody w Księgarni",
+        "description": "Rozdzielcie się w księgarni. Znajdźcie książkę, która reprezentuje waszego partnera, książkę z dzieciństwa itp.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 23,
+        "title": "Malowanie przy Winie",
+        "description": "Idźcie na zajęcia lub kupcie tanie płótna i wino. Podążajcie za tutorialem Boba Rossa.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 24,
+        "title": "Park Trampolin",
+        "description": "Uwolnijcie swoje wewnętrzne dziecko i skaczcie przez godzinę. To zaskakująco dobre ćwiczenie.",
+        "budget": "Średni",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 25,
+        "title": "Lekcja Gotowania",
+        "description": "Nauczcie się robić konkretne danie (tajskie, włoskie itp.) od profesjonalnego szefa kuchni.",
+        "budget": "Wysoki",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 26,
+        "title": "Domowe SPA",
+        "description": "Kąpiel z bąbelkami, maseczki na twarz, wzajemny masaż. Pełen relaks bez wychodzenia z domu.",
+        "budget": "Średni",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 27,
+        "title": "Prawda czy Wyzwanie (Wersja Spicy)",
+        "description": "Zagrajcie w klasyczną grę, ale pytania i wyzwania skupiają się na waszych fantazjach i pragnieniach.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 28,
+        "title": "Sesja Fotograficzna w Sypialni",
+        "description": "Zróbcie sobie nawzajem artystyczne zdjęcia (tylko dla Waszych oczu). Eksperymentujcie ze światłem i cieniem.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 29,
+        "title": "Degustacja Afrodyzjaków",
+        "description": "Przygotujcie kolację składającą się wyłącznie ze składników uważanych za afrodyzjaki (orzechy, czekolada, owoce morza, chili).",
+        "budget": "Wysoki",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 30,
+        "title": "Bodypainting",
+        "description": "Użyjcie farb do ciała (bezpiecznych dla skóry!) i zamieńcie ciała partnera w dzieło sztuki.",
+        "budget": "Średni",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 31,
+        "title": "Odgrywanie Ról w Barze",
+        "description": "Idźcie do baru osobno. Udawajcie nieznajomych, a następnie jeden z Was musi 'podrywać' drugiego.",
+        "budget": "Średni",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 32,
+        "title": "Nocny Spacer po Plaży/Lesie",
+        "description": "Wybierzcie się na spacer w całkowitej ciemności, trzymając się tylko za ręce. Dreszczyk emocji gwarantowany.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 33,
+        "title": "Czytanie Erotyków",
+        "description": "Wybierzcie pikantną książkę i czytajcie sobie nawzajem ulubione fragmenty na głos.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 34,
+        "title": "Kąpiel w Ciemności",
+        "description": "Zgaście wszystkie światła, zapalcie tylko jedną świecę i weźcie wspólną kąpiel w ciszy.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 35,
+        "title": "Strip Poker (lub inne gry)",
+        "description": "Klasyka. Przegrany zdejmuje element garderoby. Można zastosować do Scrabble, UNO czy Fify.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 36,
+        "title": "Degustacja Czekolady z Zasłoniętymi Oczami",
+        "description": "Kupcie różne rodzaje czekolady. Jedna osoba ma zasłonięte oczy i musi zgadnąć smak, karmiła przez drugą.",
+        "budget": "Średni",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 37,
+        "title": "Wyjazd do Hotelu w Swoim Mieście",
+        "description": "Wynajmijcie pokój w luksusowym hotelu w waszym mieście na jedną noc. Tylko łóżko, room service i Wy.",
+        "budget": "Wysoki",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 38,
+        "title": "Lekcja Tanga",
+        "description": "Tango to taniec bliskości i namiętności. Zapiszcie się na lekcję próbną.",
+        "budget": "Średni",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 39,
+        "title": "Pytania o Fantazje",
+        "description": "Przygotujcie słoik z karteczkami, na których są pytania o wasze najskrytsze fantazje. Losujcie i rozmawiajcie szczerze.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 40,
+        "title": "Kolacja 'Bez Rąk'",
+        "description": "Przygotujcie kolację, ale możecie karmić tylko partnera, nie używając własnych rąk do jedzenia.",
+        "budget": "Średni",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 41,
+        "title": "Wspólny Prysznic przy Świecach",
+        "description": "Zamiast szybkiego prysznica, zróbcie z tego rytuał. Świece, olejki zapachowe i wzajemne mycie.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 42,
+        "title": "Noc Filmowa 'Dla Dorosłych'",
+        "description": "Niekoniecznie filmy XXX, ale kino erotyczne lub filmy z dużą dawką napięcia seksualnego.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 43,
+        "title": "Masaż Gorącymi Kamieniami",
+        "description": "Kupcie zestaw kamieni do masażu (lub podgrzejcie gładkie kamienie rzeczne) i zróbcie sobie profesjonalny masaż.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 44,
+        "title": "Kamping w Salonie",
+        "description": "Zbudujcie fort z koców i poduszek, śpijcie na podłodze. Ale w wersji 'tylko w bieliźnie'.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 45,
+        "title": "Lody o Północy",
+        "description": "Wyjdźcie z domu w środku nocy tylko po to, by zjeść coś słodkiego. Poczujcie się jak nastolatkowie uciekający z domu.",
+        "budget": "Niski",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 46,
+        "title": "Trening dla Par",
+        "description": "Wspólny trening, gdzie wykorzystujecie ciężar ciała partnera. Dużo kontaktu fizycznego i endorfin.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 47,
+        "title": "Gra w Butelkę (We Dwoje)",
+        "description": "Kręćcie butelką. Na kogo wypadnie, ten musi wykonać rozkaz drugiego (masaż, pocałunek, itp.).",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 48,
+        "title": "Wspólne Pisanie Opowiadania",
+        "description": "Zacznijcie pisać erotyczne opowiadanie. Każdy pisze jedno zdanie naprzemiennie.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 49,
+        "title": "Randka 'Niespodzianka w Łóżku'",
+        "description": "Jedna osoba przygotowuje sypialnię (płatki róż, szampan, muzyka), a druga wchodzi z zawiązanymi oczami.",
+        "budget": "Średni",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 50,
+        "title": "Twister na Rozbieranie",
+        "description": "Zasady jak w Twisterze, ale każdy upadek lub błędny ruch oznacza zdjęcie ubrania.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 51,
+        "title": "Gokarty",
+        "description": "Sprawdźcie kto jest szybszym kierowcą na lokalnym torze gokartowym. Adrenalina gwarantowana.",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 52,
+        "title": "Wspólne Gotowanie Pizzy",
+        "description": "Kupcie gotowe ciasto (lub zróbcie sami) i mnóstwo dodatków. Zróbcie pizzę w najbardziej wymyślnych kształtach.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 53,
+        "title": "Kawiarnia ze Zwierzętami",
+        "description": "Odwiedźcie kocią kawiarnię (lub inną ze zwierzętami). Kawa smakuje lepiej w towarzystwie futrzaków.",
+        "budget": "Średni",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 54,
+        "title": "Wieczór z Lego",
+        "description": "Kupcie mały lub średni zestaw Lego i złóżcie go razem. To świetny test komunikacji i cierpliwości.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 55,
+        "title": "Obserwacja Ludzi",
+        "description": "Usiądźcie w parku lub centrum handlowym. Wymyślajcie historie życia o przechodzących ludziach.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 56,
+        "title": "Domowy Festiwal Filmowy",
+        "description": "Wybierzcie motyw (np. filmy z lat 80., horrory klasy B, filmy jednego aktora) i obejrzyjcie 3 pod rząd.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 57,
+        "title": "Ścianka Wspinaczkowa",
+        "description": "Idźcie na ściankę. Asekurowanie się nawzajem to dosłownie powierzanie swojego życia w ręce partnera!",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 58,
+        "title": "Wieczór Gier Wideo",
+        "description": "Kooperacja czy rywalizacja? Mario Kart, It Takes Two lub bijatyki.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 59,
+        "title": "Piknik na Podłodze w Salonie",
+        "description": "Gdy pogoda nie dopisuje, rozłóżcie koc w salonie i zjedzcie kolację na podłodze.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 60,
+        "title": "Wspólna Nauka Języka",
+        "description": "Pobierzcie Duolingo lub włączcie YouTube i nauczcie się podstawowych zwrotów w egzotycznym języku.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 61,
+        "title": "Kapsuła Czasu",
+        "description": "Napiszcie listy do siebie z przyszłości, dołóżcie drobiazgi i zakopcie (lub schowajcie) na rok.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 62,
+        "title": "Wieczór Degustacji Sera",
+        "description": "Kupcie 4-5 rodzajów ładnie wyglądających serów, krakersy i winogrona. Oceniajcie jak koneserzy.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 63,
+        "title": "Jazda na Rolkach / Łyżwach",
+        "description": "W zależności od pory roku. Trzymanie się za ręce, żeby się nie przewrócić, jest bardzo romantyczne.",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 64,
+        "title": "Turniej Minigolfa",
+        "description": "Klasyczna randka. Kto przegrywa, ten stawia napoje po rundzie.",
+        "budget": "Średni",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 65,
+        "title": "Wycieczka Rowerowa",
+        "description": "Wybierzcie trasę, której nie znacie. Spakujcie wodę i jedźcie przed siebie.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 66,
+        "title": "Fotobudka",
+        "description": "Znajdźcie staromodną fotobudkę i zróbcie sobie serię głupich zdjęć.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 67,
+        "title": "Wieczór Pizzy i Puzzli",
+        "description": "Zamówcie ulubioną pizzę i ułóżcie puzzle (min. 1000 elementów).",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 68,
+        "title": "Odwiedźcie Zoo",
+        "description": "Spacer wśród zwierząt. Kto pierwszy znajdzie lemura, wygrywa.",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 69,
+        "title": "Gra w Scrabble",
+        "description": "Sprawdźcie swoje słownictwo. Można ustalić zasady tematyczne (np. tylko słowa sexy).",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 70,
+        "title": "Wspólne Robienie Playlisty",
+        "description": "Stwórzcie playlistę 'Nasze Piosenki'. Każdy dodaje po 10 utworów, które mu się kojarzą z drugą osobą.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 71,
+        "title": "Ognisko",
+        "description": "Znajdźcie legalne miejsce na ognisko. Pieczenie kiełbasek i pianek.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 72,
+        "title": "Bilard lub Kręgle",
+        "description": "Klasyka barowych randek. Piwo, gra i luźna atmosfera.",
+        "budget": "Średni",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 73,
+        "title": "Spacer z Psem (Schronisko)",
+        "description": "Wiele schronisk pozwala na wyprowadzanie psów na spacer. Połączycie randkę z dobrym uczynkiem.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 74,
+        "title": "Degustacja Lokalnego Piwa",
+        "description": "Idźcie do multitapu i zamówcie deskę degustacyjną różnych piw kraftowych.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 75,
+        "title": "Tworzenie Mapy Marzeń",
+        "description": "Wytnijcie z gazet zdjęcia miejsc, które chcecie odwiedzić i rzeczy, które chcecie osiągnąć. Zróbcie kolaż.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 76,
+        "title": "Sadzenie Roślin",
+        "description": "Kupcie ziemię, doniczki i kilka roślin. Zróbcie sobie mini ogródek na balkonie.",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 77,
+        "title": "Wyjście na Lody Tajskie",
+        "description": "Znajdźcie miejsce, gdzie robią lody na waszych oczach (szpatułkami na zimnej płycie).",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 78,
+        "title": "Zwiedzanie Ikei",
+        "description": "Udawajcie, że mieszkacie w wystawowych pokojach. Zjedzcie klopsiki.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 79,
+        "title": "Slackline w Parku",
+        "description": "Kupcie lub pożyczcie taśmę do slackline. Spróbujcie przejść chociaż metr bez spadania.",
+        "budget": "Niski",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 80,
+        "title": "Wieczór Origami",
+        "description": "Kupcie kolorowy papier i uczcie się składać żurawie z tutoriali na YouTube.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 81,
+        "title": "Pub Quiz",
+        "description": "Zbierzcie się (sami lub ze znajomymi) i idźcie na quiz wiedzy ogólnej do pubu.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 82,
+        "title": "Wyprawa na Pchli Targ",
+        "description": "Wstańcie wcześnie w niedzielę i poszukajcie skarbów na targu staroci.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 83,
+        "title": "Joga dla Par",
+        "description": "Znajdźcie wideo z 'Acro Yoga' dla początkujących i spróbujcie się nie połamać.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 84,
+        "title": "Gra w Badmintona",
+        "description": "W parku lub na podwórku. Odbijanie lotki to czysta radość.",
+        "budget": "Niski",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 85,
+        "title": "Wspólne Robienie Drinków",
+        "description": "Wymyślcie autorski drink (lub bezalkoholowy koktajl) i nazwijcie go waszym imieniem.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 86,
+        "title": "Wieczór Fondue",
+        "description": "Serowe lub czekoladowe. Maczanie kawałków jedzenia w roztopionej masie jest bardzo zmysłowe.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 87,
+        "title": "Napisanie Wspólnej Piosenki",
+        "description": "Nawet jeśli nie umiecie grać. Wymyślcie głupie słowa do znanej melodii.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 88,
+        "title": "Oglądanie Starych Zdjęć",
+        "description": "Pokażcie sobie zdjęcia z dzieciństwa i opowiedzcie historie z nimi związane.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 89,
+        "title": "Pieczenie Ciasta",
+        "description": "Wybierzcie skomplikowany przepis na ciasto i spróbujcie mu podołać.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 90,
+        "title": "Spacer Szlakiem Murali",
+        "description": "Sprawdźcie mapę street artu w waszym mieście i zróbcie sobie spacer szlakiem murali.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 91,
+        "title": "Kąpiel w Termach/Basenie",
+        "description": "Relaks w ciepłej wodzie, jacuzzi i saunie.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 92,
+        "title": "Wieczór bez Technologii",
+        "description": "Telefony do szuflady. Przez cały wieczór rozmawiacie, czytacie lub gracie w karty.",
+        "budget": "Darmowy",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 93,
+        "title": "Bitwa na Poduszki",
+        "description": "Tak po prostu. Czasem trzeba rozładować energię.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 94,
+        "title": "Zrób to Sam (DIY)",
+        "description": "Renowacja starego krzesła, malowanie szafki lub zrobienie półki. Wspólna praca łączy.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 95,
+        "title": "Wieczór YouTube",
+        "description": "Pokazujecie sobie nawzajem swoje ulubione, najśmieszniejsze lub najdziwniejsze filmiki.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 96,
+        "title": "Degustacja Wina",
+        "description": "Kupcie 3 tanie wina i jedno droższe. Spróbujcie zgadnąć, które jest które.",
+        "budget": "Średni",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 97,
+        "title": "Dzień Turysty",
+        "description": "Udawajcie turystów we własnym mieście. Idźcie pod główne zabytki i róbcie zdjęcia.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 98,
+        "title": "Nocne Pływanie",
+        "description": "Jeśli macie dostęp do jeziora lub basenu nocą. Pływanie pod gwiazdami jest magiczne.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 99,
+        "title": "Gra w Prawda czy Fałsz o Sobie",
+        "description": "Każdy mówi 3 zdania o sobie, jedno jest kłamstwem. Druga osoba zgaduje.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 100,
+        "title": "Randka Niespodzianka z Budżetem 20 zł",
+        "description": "Każdy dostaje 20 zł i ma 30 minut, żeby kupić coś, co urozmaici wieczór.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 101,
+        "title": "Łyżwy i Kakao",
+        "description": "Wybierzcie się na lodowisko. Nie szkodzi, jeśli nie umiecie jeździć - trzymanie się bandy (i siebie nawzajem) zbliża! Po wszystkim gorąca czekolada/kakao.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 102,
+        "title": "Grzybobranie",
+        "description": "Jesienny klasyk. Wstańcie rano, weźcie koszyk i idźcie do lasu. Nawet jeśli nic nie znajdziecie, spacer w ciszy jest bezcenny.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 103,
+        "title": "Noc Muzeów",
+        "description": "Sprawdźcie, kiedy w waszym mieście jest Noc Muzeów. Można zwiedzić wiele placówek za darmo lub za grosze w niezwykłej, nocnej atmosferze.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 104,
+        "title": "Lepienie Pierogów",
+        "description": "Zróbcie razem domowe pierogi od zera. Ruskie, z mięsem, a może z owocami? Wspólne lepienie i mąka wszędzie to świetna zabawa.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 105,
+        "title": "Spacer Szlakiem Legend",
+        "description": "Wyszukajcie legendy miejskie związane z waszą okolicą i odwiedźcie miejsca, których dotyczą, czytając te historie na głos.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 106,
+        "title": "Kajaki",
+        "description": "Wypożyczcie kajak (dwójkę!) i popływajcie po rzece lub jeziorze. Wymaga koordynacji, żeby nie kręcić się w kółko.",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 107,
+        "title": "Kino Plenerowe",
+        "description": "Latem w wielu miastach organizowane są darmowe pokazy filmowe 'pod chmurką'. Weźcie kocyk i spray na komary.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 108,
+        "title": "Warsztaty Świec Sojowych",
+        "description": "Kupcie wosk, knoty i olejki zapachowe. Stwórzcie własne, naturalne świece o waszym ulubionym zapachu.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 109,
+        "title": "Degustacja Herbat Świata",
+        "description": "Idźcie do herbaciarni lub kupcie kilka saszetek egzotycznych herbat. Parzcie je zgodnie ze sztuką i delektujcie się różnicami.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 110,
+        "title": "Tie-Dye",
+        "description": "Dajcie drugie życie starym białym koszulkom. Kupcie barwniki i zróbcie kolorowe wzory metodą wiązania.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 111,
+        "title": "Wyjście na Śniadanie",
+        "description": "Zamiast kolacji, umówcie się na randkę rano. Jajecznica, tosty francuskie i kawa na mieście to świetny start dnia.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 112,
+        "title": "Obserwacja Samolotów (Spotting)",
+        "description": "Znajdźcie 'górkę spotterską' przy lotnisku. Oglądanie startujących i lądujących maszyn robi ogromne wrażenie.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 113,
+        "title": "Wieczór z Fondue Czekoladowym",
+        "description": "Rozpuśćcie czekoladę i maczajcie w niej owoce, pianki czy precle. Słodko i zmysłowo.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 114,
+        "title": "Arboretum / Ogród Botaniczny",
+        "description": "Spacer wśród egzotycznych roślin. Idealne tło do zdjęć i spokojnych rozmów.",
+        "budget": "Niski",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 115,
+        "title": "Morsowanie (dla odważnych)",
+        "description": "Zimą znajdźcie grupę morsów i spróbujcie wejść do lodowatej wody. Pamiętajcie o rozgrzewce! Adrenalina gwarantowana.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 116,
+        "title": "Filharmonia",
+        "description": "Ubierzcie się elegancko i idźcie na koncert muzyki klasycznej. To zupełnie inne doświadczenie niż słuchanie ze Spotify.",
+        "budget": "Wysoki",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 117,
+        "title": "Ping-Pong",
+        "description": "Znajdźcie stół do tenisa stołowego (w parku lub klubie). Szybka rozgrywka budzi ducha rywalizacji.",
+        "budget": "Niski",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 118,
+        "title": "Las w Słoiku",
+        "description": "Zróbcie własny ekosystem. Słoik, ziemia, węgiel aktywny, roślinki i mech. Będzie ozdobą na lata.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 119,
+        "title": "Wycieczka Pociągiem w Nieznane",
+        "description": "Idźcie na dworzec, kupcie bilet do losowej miejscowości w promieniu 50 km i spędźcie tam popołudnie.",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 120,
+        "title": "Domowy Festiwal Pizzy",
+        "description": "Zróbcie małe kawałki pizzy z najdziwniejszymi dodatkami, jakie przyjdą wam do głowy (gruszka, gorgonzola, miód?).",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 121,
+        "title": "Squash",
+        "description": "Bardzo dynamiczna gra. Zamknieci w klatce, biegacie i uderzacie piłką o ścianę. Super wycisk.",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 122,
+        "title": "Wieczór bez Prądu",
+        "description": "Wyłączcie korki. Funkcjonujcie tylko przy świecach/latarkach. Zmuście się do kreatywnego spędzania czasu.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 123,
+        "title": "Park Linowy",
+        "description": "Wspinaczka po drzewach z asekuracją. Przełamywanie lęku wysokości zbliża.",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 124,
+        "title": "Zbieranie Śmieci (Plogging)",
+        "description": "Idźcie na spacer z workiem i rękawiczkami do lasu lub parku. Zróbcie coś dobrego dla planety.",
+        "budget": "Darmowy",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 125,
+        "title": "Nauka Masażu",
+        "description": "Włączcie instruktaż na YouTube i nauczcie się profesjonalnych technik masażu pleców lub karku.",
+        "budget": "Darmowy",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 126,
+        "title": "Puszczanie Latawca",
+        "description": "Kupcie lub zróbcie latawiec. Idźcie na otwartą przestrzeń w wietrzny dzień. Czysta radość dziecka.",
+        "budget": "Niski",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 127,
+        "title": "Gra Miejska",
+        "description": "Poszukajcie, czy w waszym mieście jest dostępna aplikacja z grami miejskimi (np. szukanie krasnali we Wrocławiu).",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 128,
+        "title": "Bar Mleczny Challenge",
+        "description": "Idźcie do klasycznego baru mlecznego. Zjedzcie dwudaniowy obiad za grosze i poczujcie klimat PRL.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 129,
+        "title": "Escape Room w Pudełku",
+        "description": "Kupcie planszówkę typu 'Escape Room' lub 'Unlock'. Rozwiązujcie zagadki przy stole.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 130,
+        "title": "Wspólne Czytanie w Ciszy",
+        "description": "Idźcie do kawiarni lub zostańcie w domu. Każdy czyta swoją książkę, ale jesteście razem. 'Parallel play'.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 131,
+        "title": "Jarmark Bożonarodzeniowy",
+        "description": "Zimą obowiązkowy punkt. Grzaniec, ozdoby, światełka i świąteczna muzyka.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 132,
+        "title": "Aquapark",
+        "description": "Zjeżdżalnie, jacuzzi, rwąca rzeka. Wyszalejcie się w wodzie.",
+        "budget": "Wysoki",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 133,
+        "title": "Sesja Zdjęciowa Analogowa",
+        "description": "Kupcie jednorazowy aparat. Macie tylko 24/36 klatek. Róbcie przemyślane ujęcia siebie nawzajem.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 134,
+        "title": "Badminton",
+        "description": "Kometka wraca do łask. Wystarczy kawałek trawnika i zestaw za 30 zł.",
+        "budget": "Niski",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 135,
+        "title": "Piknik o Zachodzie Słońca",
+        "description": "Znajdźcie punkt widokowy skierowany na zachód. Weźcie wino (lub sok) i patrzcie jak dzień się kończy.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 136,
+        "title": "Nocne Obserwacje Nieba (Meteory)",
+        "description": "Wyjedźcie latem za miasto podczas Nocy Perseidów (sierpień). Leżcie na kocu i liczcie spadające gwiazdy.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 137,
+        "title": "Dzień Dziecka dla Dorosłych",
+        "description": "Zróbcie wszystko to, co lubiliście jako dzieci: wata cukrowa, karuzela, skakanie po kałużach.",
+        "budget": "Średni",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 138,
+        "title": "Wspólna Medytacja",
+        "description": "Usiądźcie naprzeciwko siebie, zamknijcie oczy i spróbujcie wyciszyć myśli przez 15 minut.",
+        "budget": "Darmowy",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 139,
+        "title": "Kolacja Tematyczna (Kraj)",
+        "description": "Wylosujcie kraj (np. Meksyk, Indie). Ugotujcie potrawę, puśćcie muzykę z tego kraju i ubierzcie się w tamtym stylu.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 140,
+        "title": "Drzewo Genealogiczne",
+        "description": "Usiądźcie z kartką papieru i spróbujcie rozrysować swoje drzewa genealogiczne, opowiadając anegdoty o przodkach.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 141,
+        "title": "Laser Tag",
+        "description": "Chowany ze strzelaniem laserami w ciemnym labiryncie. Mniej boli niż paintball.",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 142,
+        "title": "Seksowny Scrabble",
+        "description": "Zasady jak w Scrabble, ale uznajemy tylko słowa związane z miłością, ciałem i erotyką.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 143,
+        "title": "Wspólny 'Bucket List'",
+        "description": "Napiszcie listę 10 rzecy, które musicie zrobić razem przed śmiercią.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 144,
+        "title": "Mini Road-Trip",
+        "description": "Wsiądźcie w auto, jedźcie 100km w jedną stronę do konkretnego zamku, ruin lub jeziora. Powrót tego samego dnia.",
+        "budget": "Średni",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 145,
+        "title": "Wizyta w Palmiarni",
+        "description": "Poczujcie tropikalny klimat w środku miasta. Wilgotne powietrze i wielkie palmy.",
+        "budget": "Niski",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 146,
+        "title": "Testowanie Burgerów",
+        "description": "Kupcie po jednym burgerze z dwóch różnych, najlepiej ocenianych burgerowni i oceńcie, który lepszy.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 147,
+        "title": "Gra w Statki (Battleship)",
+        "description": "Kartka w kratkę i długopisy. 'Trafiony zatopiony'. Klasyczna gra strategiczna.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 148,
+        "title": "Malowanie Kamieni",
+        "description": "Znajdźcie ładne, gładkie kamienie i pomalujcie je farbami akrylowymi w zwierzątka lub mandale.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 149,
+        "title": "Taniec w Salonie",
+        "description": "Przesuńcie meble, puśćcie wolną muzykę i tańczcie przytuleniec, jak na dyskotece w podstawówce.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 150,
+        "title": "Zabawa w Chowanego",
+        "description": "W lesie lub parku. Brzmi infantylnie, ale dreszczyk emocji podczas szukania jest prawdziwy.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 151,
+        "title": "Wieczór Stand-upu (YT)",
+        "description": "Jeśli nie możecie wyjść, włączcie na Netflixie lub YouTube 'special' ulubionego komika.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 152,
+        "title": "Dzień bez Mówienia",
+        "description": "Spróbujcie komunikować się przez godzinę (lub dłużej) bez używania słów. Tylko gesty i spojrzenia.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 153,
+        "title": "Zróbcie Likier/Nalewkę",
+        "description": "Kupcie owoce, spirytus/wódkę i cukier. Nastawcie własną nalewkę. Degustacja za miesiąc!",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 154,
+        "title": "Karmnik dla Ptaków",
+        "description": "Zbudujcie karmnik z butelki lub drewna i powieście go za oknem. Obserwujcie gości.",
+        "budget": "Niski",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 155,
+        "title": "Randka w Ikea (Wersja 'Rodzina')",
+        "description": "Idźcie do Ikei i wybierzcie meble do waszego 'wymarzonego, nieograniczonego budżetem' domu.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 156,
+        "title": "Kostki Namiętności",
+        "description": "Zróbcie własne kości do gry z papieru. Na jednej napiszcie czynności (pocałunek, masaż, lizanie...), na drugiej części ciała. Rzućcie i wykonajcie zadanie.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 157,
+        "title": "Zmysłowe Karmienie",
+        "description": "Przygotujcie talerz z różnymi przekąskami (owoce, bita śmietana, lód). Jedna osoba ma zawiązane oczy, druga ją karmi, wodząc jedzeniem po ustach i ciele.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 158,
+        "title": "Domowy striptiz",
+        "description": "Wybierzcie seksowną piosenkę. Każde z Was ma 5 minut na przygotowanie i zaprezentowanie tańca dla partnera. Śmiech dozwolony, ale staramy się kusić!",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 159,
+        "title": "Gra Wstępna - Losowanie",
+        "description": "Napiszcie na karteczkach różne czynności (np. 'pocałuj szyję', 'rzuć na łóżko'). Wyciągajcie je na zmianę i wykonujcie przez 2 minuty każdą.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 160,
+        "title": "Szepty w Ciemności",
+        "description": "Połóżcie się w całkowitej ciemności. Opowiadajcie sobie szeptem swoje najskrytsze fantazje, których nigdy wcześniej nie wypowiedzieliście na głos.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 161,
+        "title": "Lód i Ogień",
+        "description": "Zabawa temperaturami. Użyjcie kostki lodu, a potem ciepłego oddechu lub ciepłego olejku do masażu ciała partnera. Kontrastu potęgują doznania.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 162,
+        "title": "Dzień bez Rąk (Wersja 2.0)",
+        "description": "Przez 30 minut możecie się dotykać, całować i rozbierać, ale NIE WOLNO używać dłoni. Wymaga kreatywności!",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 163,
+        "title": "Kino dla Dorosłych (Ale z klasą)",
+        "description": "Wyszukajcie filmy erotyczne, które mają fabułę i artystyczne zacięcie (tzw. 'couples friendly'). Obejrzyjcie razem dla inspiracji.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 164,
+        "title": "Wspólny Prysznic w Ubraniu",
+        "description": "Wejdźcie pod prysznic w ciuchach. Poczucie mokrego materiału na skórze i powolne zdejmowanie go pod wodą jest bardzo seksowne.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 165,
+        "title": "Masaż Piórkiem",
+        "description": "Kupcie piórko lub użyjcie czegoś bardzo delikatnego. Przesuwajcie nim po całym ciele partnera, nie dotykając go dłońmi.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 166,
+        "title": "Zakupy w Sex Shopie (Online lub Offline)",
+        "description": "Przejrzyjcie razem asortyment. Wybierzcie jedną rzecz (olejek, gadżet, bieliznę), którą kupicie i przetestujecie.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 167,
+        "title": "Wyzywający Strój w Miejscu Publicznym",
+        "description": "Partnerka/Partner nie ubiera bielizny pod spód na wyjście do kina lub restauracji. Świadomość tego sekretu w tłumie ludzi elektryzuje.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 168,
+        "title": "Zabawa w 'Zamrożenie'",
+        "description": "Podczas pieszczot, jeda osoba mówi 'Stop'. Druga musi zastygnąć w bezruchu, dopóki nie usłyszy 'Start'. Buduje niesamowite napięcie.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 169,
+        "title": "Kolacja na Ciele (Body Sushi bez Sushi)",
+        "description": "Ułóżcie ulubione przekąski (truskawki, czekoladki) bezpośrednio na ciele partnera. Jedzcie bez użycia rąk.",
+        "budget": "Średni",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 170,
+        "title": "Lekcja Tantry",
+        "description": "Znajdźcie w internecie podstawowe ćwiczenia tantryczne dla par (np. patrzenie w oczy w połączeniu 'Yab-Yum') i spróbujcie je wykonać.",
+        "budget": "Darmowy",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 171,
+        "title": "Prawda czy Wyzwanie: Tylko Wyzwania",
+        "description": "Tym razem bez pytań. Tylko wyzwania i to te z górnej półki. Jeśli ktoś odmówi, musi zdjąć część garderoby.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 172,
+        "title": "Fotograf Aktu",
+        "description": "Jedna osoba jest modelem/modelką, druga fotografem. Postarajcie się zrobić artystyczne, rozbierane zdjęcia, które mogłyby wisieć w galerii.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 173,
+        "title": "Szybki Numerek (Quickie Challenge)",
+        "description": "Spróbujcie znaleźć w domu miejsce, w którym jeszcze TEGO nie robiliście. Macie 15 minut, zanim 'wrócą rodzice' (nawet jeśli mieszkacie sami).",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 174,
+        "title": "Krępowanie (Shibari dla początkujących)",
+        "description": "Użyjcie krawata, apaszki lub miękkiego sznura, by delikatnie unieruchomić ręce partnera. Poczucie bezradności może być wyzwalające.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 175,
+        "title": "Roleplay: Nieznajomi w Barze",
+        "description": "Umówcie się w barze hotelowym. Udawajcie, że się nie znacie. Spróbujcie się poderwać, używając nowych imion i historii życia.",
+        "budget": "Średni",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 176,
+        "title": "Kajdanki i Łaskotki",
+        "description": "Jedna osoba jest przykuta (lub związana), a druga ma piórko lub pędzelek. Tortura łaskotkami!",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 177,
+        "title": "Turniej Mario Kart",
+        "description": "Nawet jeśli nie macie konsoli, ściągnijcie wersję na telefon. Przegrany robi masaż.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 178,
+        "title": "Bierki / Jenga",
+        "description": "Gra zręcznościowa, która wymaga skupienia i pewnej ręki. Dużo śmiechu przy zawaleniu wieży.",
+        "budget": "Niski",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 179,
+        "title": "Wyjście na Stand-up Open Mic",
+        "description": "Idźcie na darmowy wieczór open mic. Żarty mogą być sucharami, ale to tylko dodaje uroku.",
+        "budget": "Niski",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 180,
+        "title": "Wizytacja w Sklepie z Zabawkami",
+        "description": "Idźcie do Smyka czy innego dużego sklepu. Zobaczcie, jak zmieniły się zabawki. Kupcie sobie bańki mydlane.",
+        "budget": "Niski",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 181,
+        "title": "Domowe Karaoke z YouTube",
+        "description": "Wpiszcie 'tytuł piosenki + karaoke' na YT. Śpiewajcie do dezodorantów.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 182,
+        "title": "Gra w 'Państwa-Miasta'",
+        "description": "Kartka, długopis i alfabet. Klasyk, który wciąga na godziny.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 183,
+        "title": "Zgadywanka Muzyczna",
+        "description": "Puszczajcie sobie 1-sekundowe fragmenty piosenek. Kto zgadnie tytuł szybciej?",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 184,
+        "title": "Festiwal Food Trucków",
+        "description": "Idźcie posłuchać muzyki, poczuć zapachy i popatrzeć na ludzi w luźnej atmosferze.",
+        "budget": "Średni",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 185,
+        "title": "Mecz w Barze",
+        "description": "Nawet jeśli nie jesteście fanami, atmosfera kibicowania w pubie jest zaraźliwa.",
+        "budget": "Średni",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 186,
+        "title": "TikTok Challenge",
+        "description": "Nauczcie się razem choreografii z TikToka. Efekt końcowy nie musi być idealny, ważne są próby.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 187,
+        "title": "Gra w 'Kto to jest?'",
+        "description": "Przyklejacie sobie na czoło kartkę z postacią i zadajecie pytania Tak/Nie.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 188,
+        "title": "Listy Miłosne",
+        "description": "Napiszcie do siebie tradycyjne listy na papierze. Wymieńcie się nimi i przeczytajcie w ciszy.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 189,
+        "title": "Spacer w Deszczu",
+        "description": "Jeśli pada, nie uciekajcie. Weźcie jeden parasol i idźcie na spacer. Jest bardzo filmowo.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 190,
+        "title": "Odtworzenie Pierwszej Randki",
+        "description": "Spróbujcie odtworzyć waszą pierwszą randkę. To samo miejsce, podobne ubrania, te same emocje.",
+        "budget": "Zależy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 191,
+        "title": "Śniadanie do Łóżka",
+        "description": "Wstańcie wcześniej i przygotujcie królewskie śniadanie, które zjecie w pościeli.",
+        "budget": "Średni",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 192,
+        "title": "Czytanie Poezji",
+        "description": "Znajdźcie tomik wierszy (Szymborska, Poświatowska). Czytajcie na głos te o miłości.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 193,
+        "title": "Wspólne Oglądanie Ślubnych Zdjęć",
+        "description": "Jeśli jesteście po ślubie - obejrzyjcie album. Jeśli nie - pooglądajcie zdjęcia rodziców/dziadków.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 194,
+        "title": "Noc w Namiocie (w pokoju)",
+        "description": "Rozbijcie namiot w salonie, weźcie do środka śpiwory i lampki. Kemping w wersji lux.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 195,
+        "title": "Slow Dance (Przytulaniec)",
+        "description": "Włączcie swoją piosenkę i tańczcie powoli w kuchni, bez okazji.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 196,
+        "title": "Karmnik dla Wiewiórek",
+        "description": "Idźcie do parku z orzechami. Próba nakarmienia wiewiórki to urocze i zbliżające wyzwanie.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 197,
+        "title": "Wspólne Planowanie Wakacji",
+        "description": "Nawet jeśli to tylko marzenia. Oglądajcie Airbnb w Toskanii czy Bali.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "title": "Wspólne Oglądanie Gwiazd (Aplikacja)",
+        "description": "Pobierzcie SkyMap i znajdźcie Kasjopeję lub Marsa. Leżenie na trawie obowiązkowe.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 198
+    },
+    {
+        "title": "Listy na 'Czarną Godzinę'",
+        "description": "Napiszcie listy 'Otwórz, gdy się pokłócimy' lub 'Otwórz, gdy będziesz smutny/a'.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 199
+    },
+    {
+        "title": "Romantyczna Kąpiel z Bąbelkami",
+        "description": "Klasyka gatunku. Dużo piany, świece i dwa kieliszki czegoś dobrego.",
+        "budget": "Niski",
+        "vibe": "Romantyczny",
+        "id": 200
+    },
+    {
+        "title": "Wieczór Wspomnień na Instagramie",
+        "description": "Przewińcie swoje profile do samego początku. Zobaczcie, jak się zmieniliście.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 201
+    },
+    {
+        "title": "Nocne Pieczenie Ciasteczek",
+        "description": "Gdy cały świat śpi, wy robicie maślane ciasteczka w kuchni przy cichej muzyce.",
+        "budget": "Niski",
+        "vibe": "Romantyczny",
+        "id": 202
+    },
+    {
+        "title": "Masaż Dłoni",
+        "description": "Kupcie dobry krem i zróbcie sobie nawzajem długi, relaksujący masaż dłoni.",
+        "budget": "Niski",
+        "vibe": "Romantyczny",
+        "id": 203
+    },
+    {
+        "title": "Oglądanie Ślubów (Pinterest)",
+        "description": "Stwórzcie tablicę 'Wymarzone Wesele' na Pintereście. Nawet dla zabawy.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 204
+    },
+    {
+        "title": "Randka w Księgarni (Dział Poezji)",
+        "description": "Znajdźcie wiersz, który opisuje wasze uczucie i przeczytajcie go szeptem.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 205
+    },
+    {
+        "title": "Sypialnia jak w Hotelu",
+        "description": "Pościelcie łóżko idealnie, połóżcie czekoladkę na poduszce i udawajcie gości.",
+        "budget": "Niski",
+        "vibe": "Romantyczny",
+        "id": 206
+    },
+    {
+        "title": "Wspólne Marzenia (10 lat)",
+        "description": "Gdzie widzicie się za dekadę? Dom na wsi, podróż dookoła świata? Pomarzcie na głos.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 207
+    },
+    {
+        "title": "Frisbee w Parku",
+        "description": "Prosta gra, dużo biegania. Spróbujcie rzucać tak, żeby pies sąsiada nie złapał.",
+        "budget": "Niski",
+        "vibe": "Aktywny",
+        "id": 208
+    },
+    {
+        "title": "Wspólny Jogging",
+        "description": "Wolne tempo, rozmowa w trakcie (jeśli dacie radę złapać oddech).",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 209
+    },
+    {
+        "title": "Turniej Rzutów Karnych",
+        "description": "Idźcie na orlik. Kto strzeli więcej goli na 10 prób? Przegrany stawia wodę.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 210
+    },
+    {
+        "title": "Siłownia Plenerowa",
+        "description": "Znajdźcie te dziwne maszyny w parku i spróbujcie rozkminić, jak działają. Trening + śmiech.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 211
+    },
+    {
+        "title": "Wyprawa na Grzyby/Jagody",
+        "description": "Wymaga wczesnego wstania i kaloszy. Satysfakcja ze znalezienia prawdziwka - bezcenna.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 212
+    },
+    {
+        "title": "Nauka Jazdy na Deskorolce",
+        "description": "Jeśli macie lub możecie pożyczyć. Będzie dużo upadków, więc ochraniacze wskazane!",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 213
+    },
+    {
+        "title": "Spacer na Boso",
+        "description": "Znajdźcie bezpieczną łąkę lub plażę. Uziemienie się to świetny relaks.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 214
+    },
+    {
+        "title": "Wspólne Mycie Auta",
+        "description": "Na myjni bezdotykowej lub ręcznie. Woda chlapie wszędzie, można się pośmiać.",
+        "budget": "Niski",
+        "vibe": "Aktywny",
+        "id": 215
+    },
+    {
+        "title": "Turniej Darta",
+        "description": "W pubie lub w domu. Celność i opanowanie.",
+        "budget": "Niski",
+        "vibe": "Aktywny",
+        "id": 216
+    },
+    {
+        "title": "Gra w 'Dwa Ognie'",
+        "description": "Jeśli macie piłkę i trochę miejsca. Powrót do czasów podstawówki.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 217
+    },
+    {
+        "title": "Malowanie na Szkle",
+        "description": "Kupcie farbki i pomalujcie stare słoiki, robiąc z nich lampiony.",
+        "budget": "Niski",
+        "vibe": "Kreatywny",
+        "id": 218
+    },
+    {
+        "title": "Wspólne Pisanie Wiersza",
+        "description": "Metoda 'każdy po jednym słowie'. Wyjdzie coś absurdalnego.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 219
+    },
+    {
+        "title": "Domowy Wernisaż",
+        "description": "Rozwieście swoje rysunki/zdjęcia na ścianach i chodźcie z winem, oceniając 'sztukę'.",
+        "budget": "Niski",
+        "vibe": "Kreatywny",
+        "id": 220
+    },
+    {
+        "title": "Nauka Kaligrafii",
+        "description": "Kupcie pióro lub pisak pędzelkowy. Próbujcie ładnie napisać swoje imiona.",
+        "budget": "Niski",
+        "vibe": "Kreatywny",
+        "id": 221
+    },
+    {
+        "title": "Robienie Biżuterii",
+        "description": "Koraliki, sznurek i do dzieła. Bransoletki przyjaźni dla pary.",
+        "budget": "Niski",
+        "vibe": "Kreatywny",
+        "id": 222
+    },
+    {
+        "title": "Projektowanie Wymarzonego Domu (Sims)",
+        "description": "Odpalcie The Sims (jest darmowe) i zbudujcie waszą willę bez kodów na kasę... albo z.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 223
+    },
+    {
+        "title": "Nagranie Podcastu",
+        "description": "Nagrajcie rozmowę na dyktafon, jakbyście prowadzili audycję. Temat dowolny.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 224
+    },
+    {
+        "title": "Robienie Mydła",
+        "description": "Gotowe bazy mydlane są tanie. Dodajcie suszone kwiaty i olejki.",
+        "budget": "Średni",
+        "vibe": "Kreatywny",
+        "id": 225
+    },
+    {
+        "title": "Malowanie Koszulek",
+        "description": "Markery do tkanin i białe t-shirty. Narysujcie coś dla siebie nawzajem.",
+        "budget": "Średni",
+        "vibe": "Kreatywny",
+        "id": 226
+    },
+    {
+        "title": "Zrobienie Pizzy z Tortilli",
+        "description": "Kulinarna kreatywność. Spody z placków tortilli, a góra to wasza fantazja.",
+        "budget": "Niski",
+        "vibe": "Kreatywny",
+        "id": 227
+    },
+    {
+        "title": "Drzemka Power Nap",
+        "description": "Po prostu połóżcie się razem w ciągu dnia i zdrzemnijcie 20 minut. Luksus dorosłości.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 228
+    },
+    {
+        "title": "Czytanie Czasopism",
+        "description": "Kupcie 3 różne magazyny (wnętrzarskie, podróżnicze) i przeglądajcie przy kawie.",
+        "budget": "Niski",
+        "vibe": "Relaks",
+        "id": 229
+    },
+    {
+        "title": "Słuchanie Audiobooka",
+        "description": "Połóżcie się na kanapie, zamknijcie oczy i słuchajcie lektora.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 230
+    },
+    {
+        "title": "Wieczór z Herbatą i Kocykiem",
+        "description": "Zaparzcie wielki dzbanek. Rozmawiajcie o wszystkim i o niczym.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 231
+    },
+    {
+        "title": "Domowy Brunch",
+        "description": "Jajka po benedyktyńsku, mimoza (sok + szampan), owoce. Celebrujcie poranek.",
+        "budget": "Średni",
+        "vibe": "Relaks",
+        "id": 232
+    },
+    {
+        "title": "Spacer bez Celu",
+        "description": "Wyjdźcie z domu i skręcajcie tam, gdzie akurat macie ochotę. Wolne tempo.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 233
+    },
+    {
+        "title": "Oglądanie Deszczu/Burzy",
+        "description": "Siedzenie na balkonie (pod dachem) lub przy oknie i patrzenie na żywioł. Kojące.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 234
+    },
+    {
+        "title": "Joga Twarzy",
+        "description": "Robienie głupich min, które rzekomo odmładzają. Dużo śmiechu i relaks mięśni.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 235
+    },
+    {
+        "title": "Wieczór Pielęgnacji Stóp",
+        "description": "Moczenie stóp w misce z solą, peeling, krem. Wasze nogi wam podziękują.",
+        "budget": "Niski",
+        "vibe": "Relaks",
+        "id": 236
+    },
+    {
+        "title": "Leżenie w Hamaku",
+        "description": "Jeśli macie dostęp do hamaka. Bujanie się usypia i uspokaja.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 237
+    },
+    {
+        "title": "Domowy Pokaz Mody",
+        "description": "Wyciągnijcie najdziwniejsze ciuchy z szafy. Zróbcie wybieg w korytarzu.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 238
+    },
+    {
+        "title": "Wojna na Wodę",
+        "description": "Pistolety na wodę lub balony w upalny dzień. Nikt nie wyjdzie suchy.",
+        "budget": "Niski",
+        "vibe": "Rozrywka",
+        "id": 239
+    },
+    {
+        "title": "Gra w 'Taboo' (bez kart)",
+        "description": "Próbujecie opisać słowo, nie używając zakazanych wyrazów. Aplikacja w telefonie wystarczy.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 240
+    },
+    {
+        "title": "Wieczór Memeów",
+        "description": "Wyszukajcie i wyślijcie sobie top 10 najśmieszniejszych memów z ostatniego tygodnia.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 241
+    },
+    {
+        "title": "Prank Call (Żart telefoniczny)",
+        "description": "Zadzwońcie do znajomego (który ma poczucie humoru) i wkręćcie go w coś niewinnego.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 242
+    },
+    {
+        "title": "Konkurs Gwizdania",
+        "description": "Kto potrafi gwizdać na palcach? A kto wygwiżdże melodię z Titanica? Próbujcie.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 243
+    },
+    {
+        "title": "Gra w 'Prawda czy Fałsz' (Ciekawostki)",
+        "description": "Czytacie dziwne fakty z Wikipedii i druga osoba zgaduje, czy to prawda.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 244
+    },
+    {
+        "title": "Układanie Domku z Kart",
+        "description": "Wymaga cierpliwości, ale moment zawalenia jest zawsze spektakularny.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 245
+    },
+    {
+        "title": "Zabawa w 'A co byś zrobił, gdyby...'",
+        "description": "Absurdalne scenariusze: atak zombie, wygrana w lotto, inwazja kosmitów.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 246
+    },
+    {
+        "title": "Nauka Magicznej Sztuczki",
+        "description": "YouTube -> 'simple card trick'. Nauczcie się i pokażcie sobie nawzajem.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 247
+    },
+    {
+        "title": "Szeptane Wyznania",
+        "description": "Zbliżcie usta do ucha partnera. Mówcie rzeczy, od których przechodzą dreszcze.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 248
+    },
+    {
+        "title": "Gra Wstępna: Kostka Lodu",
+        "description": "Wódź kostką lodu po ciele partnera, aż się rozpuści. Nie używaj rąk.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 249
+    },
+    {
+        "title": "Nagi Wieczór",
+        "description": "Po prostu. Spędźcie wieczór w domu chodząc nago. Gotując, oglądając TV. Wyzwalające.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 250
+    },
+    {
+        "title": "Seksowny Taniec (Dla Niego/Niej)",
+        "description": "Nie musi być profesjonalnie. Ważne są intencje i pewność siebie.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 251
+    },
+    {
+        "title": "Całowanie w Deszczu (Wersja 18+)",
+        "description": "Jeśli macie prywatny ogród/balkon. Mokre ubrania i gorące pocałunki.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 252
+    },
+    {
+        "title": "Lektura Erotyczna (Chapter by Chapter)",
+        "description": "Czytajcie erotyk na głos, rozdział po rozdziale. Zmieniajcie się.",
+        "budget": "Niski",
+        "vibe": "Pikantny",
+        "id": 253
+    },
+    {
+        "title": "Zasłonięte Oczy (Cały Wieczór)",
+        "description": "Jedna osoba ma opaskę przez godzinę. Druga jest jej przewodnikiem. Buduje zaufanie.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 254
+    },
+    {
+        "title": "Masaż Stóp (Z podtekstem)",
+        "description": "Od stóp w górę. Bardzo powoli. Zatrzymując się w newralgicznych miejscach.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 255
+    },
+    {
+        "title": "Wspólne Oglądanie 'Tej' Kategorii",
+        "description": "Wybierzcie film dla dorosłych wspólnie. Komentujcie co wam się podoba.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 256
+    },
+    {
+        "title": "'Bilet Wstępu' do Sypialni",
+        "description": "Przygotujcie 'bilety' na konkretne pieszczoty, które partner może zrealizować w dowolnym momencie.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 257
+    },
+    {
+        "title": "Głośne Czytanie w Parku",
+        "description": "Znajdźcie ławkę pod drzewem i czytajcie sobie nawzajem ulubioną książkę.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 258
+    },
+    {
+        "title": "Wspólne Oglądanie Zdjęć (Chmura)",
+        "description": "Zróbcie pokaz slajdów na telewizorze z losowych zdjęć z Waszych telefonów.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 259
+    },
+    {
+        "title": "Pisanie Listu do Przyszłego Dziecka (lub Psa)",
+        "description": "Napiszcie o tym, jacy jesteście teraz i czego chcecie nauczyć kogoś w przyszłości.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 260
+    },
+    {
+        "title": "Randka 'Bez Prądu' (Świece)",
+        "description": "Wyłączcie wszystko. Tylko świece, wino i rozmowa. Zero rozpraszaczy.",
+        "budget": "Niski",
+        "vibe": "Romantyczny",
+        "id": 261
+    },
+    {
+        "title": "Nocne Karmienie Kaczek (Ziarnem!)",
+        "description": "Idźcie nad staw wieczorem. Pamiętajcie - kukurydza lub ziarno, nie chleb!",
+        "budget": "Niski",
+        "vibe": "Romantyczny",
+        "id": 262
+    },
+    {
+        "title": "Wspólne Gotowanie Afrodyzjaków",
+        "description": "Poszukajcie w necie listy afrodyzjaków i zróbcie z nich kolację.",
+        "budget": "Średni",
+        "vibe": "Romantyczny",
+        "id": 263
+    },
+    {
+        "title": "Piknik w Pustym Pokoju",
+        "description": "Wynosicie wszystko z jednego pokoju (lub przesuwacie) i robicie piknik na środku.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 264
+    },
+    {
+        "title": "Wspólna Kąpiel Stóp",
+        "description": "Zróbcie sobie domowe spa dla stóp z solą i olejkami.",
+        "budget": "Niski",
+        "vibe": "Romantyczny",
+        "id": 265
+    },
+    {
+        "title": "Oglądanie Świateł Miasta",
+        "description": "Znajdźcie najwyższy punkt w okolicy i patrzcie na nocne miasto.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 266
+    },
+    {
+        "title": "Spacer o Świcie",
+        "description": "Wymaga wstania, ale świat o 5 rano jest inny. Cichy i tylko Wasz.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 267
+    },
+    {
+        "title": "Wysłanie Kartki Pocztowej (do siebie)",
+        "description": "Wyślijcie pocztówkę do swojego domu z pozdrowieniami z 'Randki'. Dojdzie za 3 dni.",
+        "budget": "Niski",
+        "vibe": "Romantyczny",
+        "id": 268
+    },
+    {
+        "title": "Szukanie Czterolistnej Koniczyny",
+        "description": "Połóżcie się na trawie i szukajcie szczęścia. Dosłownie.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny",
+        "id": 269
+    },
+    {
+        "title": "Sprint na 100 metrów",
+        "description": "Zmierzcie sobie czas. Kto jest szybszy? Nagroda dla zwycięzcy.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 270
+    },
+    {
+        "title": "Wchodzenie po Schodach",
+        "description": "Znajdźcie wysoki budynek lub schody w parku. Kto wejdzie na górę bez zadyszki?",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 271
+    },
+    {
+        "title": "Rzucanie Do Kosza (Papierami)",
+        "description": "Ustawcie kosz na śmieci na środku i rzucajcie kulkami papieru z różnych odległości.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 272
+    },
+    {
+        "title": "Nauka Żonglowania",
+        "description": "Weźcie 3 mandarynki lub piłeczki tenisowe. YouTube i próbujemy.",
+        "budget": "Niski",
+        "vibe": "Aktywny",
+        "id": 273
+    },
+    {
+        "title": "Wspólne Robienie Przysiadów",
+        "description": "Challenge: 100 przysiadów w parze (trzymając się za ręce).",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 274
+    },
+    {
+        "title": "Spacer Tyłem",
+        "description": "Idźcie na spacer, ale chodźcie tyłem. Uważajcie na słupy!",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 275
+    },
+    {
+        "title": "Siłowanie na Rękę",
+        "description": "Klasyk. Sprawdźcie, kto ma więcej siły (lub lepszą technikę).",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 276
+    },
+    {
+        "title": "Zabawa w 'Raz, Dwa, Trzy, Baba Jaga Patrzy'",
+        "description": "W parku. Biegajcie jak dzieci.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 277
+    },
+    {
+        "title": "Wspólne Mycie Okien",
+        "description": "Brzmi jak praca, ale to niezły trening. I jaki widok potem!",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 278
+    },
+    {
+        "title": "Trening Rozciągania (Stretching)",
+        "description": "Spróbujcie dotknąć palcami stóp. Pomagajcie sobie nawzajem w rozciąganiu.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 279
+    },
+    {
+        "title": "Balansowanie na Krawężniku",
+        "description": "Idźcie ulicą, ale możecie stąpać tylko po krawężnikach.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 280
+    },
+    {
+        "title": "Tor Przeszkód w Domu",
+        "description": "Zróbcie tor: pod stołem, nad krzesłem, slalom między butelkami.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny",
+        "id": 281
+    },
+    {
+        "title": "Rysowanie Portretu (Z Pamięci)",
+        "description": "Odwróćcie się plecami i narysujcie twarz partnera z pamięci. Porównajcie.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 282
+    },
+    {
+        "title": "Wymyślanie Nowych Słów",
+        "description": "Stwórzcie słowa na rzeczy, które nie mają nazwy (np. uczucie po zjedzeniu pizzy).",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 283
+    },
+    {
+        "title": "Robienie Kolażu z Gazet",
+        "description": "Wytnijcie śmieszne nagłówki i zdjęcia. Zróbcie z nich absurdalną historię.",
+        "budget": "Niski",
+        "vibe": "Kreatywny",
+        "id": 284
+    },
+    {
+        "title": "Budowanie z Kartonów",
+        "description": "Macie jakieś pudełka po paczkach? Zbudujcie zamek dla kota lub po prostu rzeźbę.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 285
+    },
+    {
+        "title": "Sesja Zdjęciowa 'Macro'",
+        "description": "Użyjcie telefonu, żeby zrobić zbliżenia oczu, dłoni, faktury ubrań.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 286
+    },
+    {
+        "title": "Pisanie Piosenki o Waszym Dniu",
+        "description": "Zrymujcie to, co działo się od rana. 'Wstałem rano, kawy brak...'",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 287
+    },
+    {
+        "title": "Tworzenie Własnego Drink-a",
+        "description": "Mieszajcie soki i napoje w dziwnych proporcjach. Oceniajcie smak.",
+        "budget": "Średni",
+        "vibe": "Kreatywny",
+        "id": 288
+    },
+    {
+        "title": "Malowanie Twarzy (Facepainting)",
+        "description": "Użyjcie kredek do makijażu. Zróbcie z siebie tygrysa lub motyla.",
+        "budget": "Niski",
+        "vibe": "Kreatywny",
+        "id": 289
+    },
+    {
+        "title": "Projektowanie Tatuażu (Zmywalnego)",
+        "description": "Narysujcie sobie długopisem 'tatuaż', który chcielibyście mieć.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 290
+    },
+    {
+        "title": "Nagrywanie Filmu Slow Motion",
+        "description": "Nagrywajcie jak rzucacie popcornem, wylewacie wodę itp. w zwolnionym tempie.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 291
+    },
+    {
+        "title": "Robienie Pieczątek z Ziemniaka",
+        "description": "Powrót do przedszkola. Wytnijcie wzór w ziemniaku i stemplujcie.",
+        "budget": "Niski",
+        "vibe": "Kreatywny",
+        "id": 292
+    },
+    {
+        "title": "Wymyślanie Historii Przedmiotów",
+        "description": "Wybierzcie losowy przedmiot w domu (np. stary wazon) i wymyślcie jego epicką historię.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny",
+        "id": 293
+    },
+    {
+        "title": "Leżenie na Dywanie",
+        "description": "Zmieńcie perspektywę. Połóżcie się na środku pokoju i patrzcie w sufit.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 294
+    },
+    {
+        "title": "ASMR na Żywo",
+        "description": "Szeptajcie do siebie, szurajcie pędzelkami, stukajcie w paznokcie. Relaks czy śmiech?",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 295
+    },
+    {
+        "title": "Oglądanie Akwarium (YouTube)",
+        "description": "Włączcie na TV 10-godzinne nagranie rafy koralowej. Patrzcie na rybki.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 296
+    },
+    {
+        "title": "Wąchanie Świeczek",
+        "description": "Idźcie do sklepu (np. TK Maxx) i wąchajcie wszystkie świeczki. Znajdźcie najdziwniejszą.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 297
+    },
+    {
+        "title": "Układanie Pasjansa (We dwoje)",
+        "description": "Prawdziwymi kartami. Pomagajcie sobie nawzajem.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 298
+    },
+    {
+        "title": "Masaż Głowy (Drapaczką)",
+        "description": "Jeśli macie tę metalową drapaczkę do głowy. Jeśli nie, użyjcie palców.",
+        "budget": "Niski",
+        "vibe": "Relaks",
+        "id": 299
+    },
+    {
+        "title": "Słuchanie Dźwięków Natury",
+        "description": "Aplikacja z dźwiękami deszczu, lasu. Zamknijcie oczy i przenieście się tam.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 300
+    },
+    {
+        "title": "Picic Wody (Rozważne)",
+        "description": "Usiądźcie i wypijcie powoli szklankę wody, skupiając się na smaku. Mindfulness.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 301
+    },
+    {
+        "title": "Rozplątywanie Słuchawek/Kabli",
+        "description": "Znajdźcie pudełko z kablami. Powoli je rozplączcie. To dziwnie satysfakcjonujące.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 302
+    },
+    {
+        "title": "Patrzenie w Płomień Świecy",
+        "description": "Trataka (joga oczu). Patrzcie w płomień bez mrugania tak długo, jak dacie radę.",
+        "budget": "Niski",
+        "vibe": "Relaks",
+        "id": 303
+    },
+    {
+        "title": "Wspólne Czesanie Włosów",
+        "description": "Czeszcie partnerowi włosy bardzo powoli. To niesamowicie relaksuje.",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 304
+    },
+    {
+        "title": "Drzemka w Innym Pokoju",
+        "description": "Zdrzemnijcie się tam, gdzie zwykle nie śpicie (np. na kanapie dla gości).",
+        "budget": "Darmowy",
+        "vibe": "Relaks",
+        "id": 305
+    },
+    {
+        "title": "Gra w 'Głuchy Telefon'",
+        "description": "Wymaga więcej osób, ale we dwoje też można. Mówcie szeptem dziwne zdania.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 306
+    },
+    {
+        "title": "Czytanie Horoskopów",
+        "description": "Przeczytajcie horoskopy z gazety lub netu. Śmiejcie się z tego, co się nie zgadza.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 307
+    },
+    {
+        "title": "Oglądanie Kompilacji Faili",
+        "description": "YouTube -> 'Fail Army'. Śmiech z cudzego nieszczęścia to guilty pleasure.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 308
+    },
+    {
+        "title": "Udawanie Obcokrajowców",
+        "description": "Idźcie do sklepu i rozmawiajcie w wymyślonym języku.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 309
+    },
+    {
+        "title": "Gra w Kamień, Papier, Nożyce (Turniej)",
+        "description": "Grajcie do 10 wygranych. Zapisujcie wyniki na kartce.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 310
+    },
+    {
+        "title": "Zabawa w 'Ciepło-Zimno'",
+        "description": "Schowajcie coś w pokoju. Druga osoba szuka sterowana komendami.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 311
+    },
+    {
+        "title": "Robienie Min do Lustra",
+        "description": "Stańcie przed lustrem i sprawdzajcie, kto zrobi brzydszą twarz.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 312
+    },
+    {
+        "title": "Przeglądanie Ofert 'Oddam za Darmo'",
+        "description": "Wejdźcie na OLX. Zobaczcie, co ludzie oddają. Niektóre ogłoszenia to złoto.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 313
+    },
+    {
+        "title": "Gra w 'Pomidor'",
+        "description": "Jedna osoba zadaje pytania, druga musi odpowiadać 'Pomidor' i się nie roześmiać.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 314
+    },
+    {
+        "title": "Wymyślanie Imion dla Pluszaków",
+        "description": "Przedstawcie sobie wszystkie maskotki w domu i nadajcie im imiona i zawody.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 315
+    },
+    {
+        "title": "Czytanie Opinii w Google Maps",
+        "description": "Znajdźcie najgorzej oceniany lokal w okolicy i czytajcie opinie. Kabaret.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 316
+    },
+    {
+        "title": "Gra w 'Skojarzenia'",
+        "description": "Szybkie tempo. Mówisz słowo, partner odpowiada pierwszym skojarzeniem.",
+        "budget": "Darmowy",
+        "vibe": "Rozrywka",
+        "id": 317
+    },
+    {
+        "title": "Całowanie Kolan",
+        "description": "Nietypowe miejsce, ale bardzo wrażliwe. Skupcie się tylko na kolanach.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 318
+    },
+    {
+        "title": "Zdejmowanie Ubrań Zębami",
+        "description": "Spróbujcie zdjąć chociaż jedną rzecz partnera (skarpetkę? rękawiczkę?) bez użycia rąk.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 319
+    },
+    {
+        "title": "Masaż Uszu",
+        "description": "Masujcie płatki uszu i obszar za nimi. To silna strefa erogenna.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 320
+    },
+    {
+        "title": "Wspólne Wybieranie Bielizny Online",
+        "description": "Przeglądajcie sklep internetowy i wybierzcie, co chcielibyście zobaczyć na partnerze.",
+        "budget": "Darmowy (chyba że kupicie)",
+        "vibe": "Pikantny",
+        "id": 321
+    },
+    {
+        "title": "Gra w 'Nigdy Przenigdy' (Wersja 18+)",
+        "description": "Dowiedzcie się o sobie nowych rzeczy. Pijcie łyk wody/wina, jeśli to robiliście.",
+        "budget": "Niski",
+        "vibe": "Pikantny",
+        "id": 322
+    },
+    {
+        "title": "Patrzenie Sobie w Usta",
+        "description": "Siedźcie blisko i patrzcie tylko na usta partnera, nie całując się. Napięcie rośnie.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 323
+    },
+    {
+        "title": "Opowiadanie Snu Erotycznego",
+        "description": "Jeśli taki mieliście - opowiedzcie go ze szczegółami. Jeśli nie - zmyślcie go.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 324
+    },
+    {
+        "title": "Dotykanie Włosami",
+        "description": "Jeśli masz długie włosy, łaskocz nimi nagą skórę partnera.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 325
+    },
+    {
+        "title": "Pisanie Palcem po Plecach",
+        "description": "Piszcie 'niegrzeczne' słowa palcem na plecach. Partner musi zgadnąć.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 326
+    },
+    {
+        "title": "Wspólna Kąpiel Bez Wody",
+        "description": "Wejdźcie do suchej wanny w ubraniach lub bez. To po prostu wygodne, izolowane miejsce do tulenia.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 327
+    },
+    {
+        "title": "Dmuchanie na Skórę",
+        "description": "Dmuchać ciepłym lub zimnym powietrzem na szyję, brzuch, udo.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 328
+    },
+    {
+        "title": "Robienie 'Malinek' (Ostrożnie!)",
+        "description": "Zostawienie śladu w niewidocznym miejscu. Nasz mały sekret.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny",
+        "id": 329
+    }
+]
