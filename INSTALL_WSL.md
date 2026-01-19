@@ -31,7 +31,7 @@ nvm install --lts
 Sklonuj repozytorium na swój dysk wewnątrz WSL i wejdź do folderu projektu:
 
 ```bash
-git clone https://github.com/twoja-nazwa/date-roulette.git && cd date-roulette
+git clone https://github.com/r0jooo/date-roulette.git && cd date-roulette
 ```
 
 ---
