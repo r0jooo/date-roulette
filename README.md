@@ -59,6 +59,17 @@ npm install
 
 ---
 
+## 🔄 Aktualizacja projektu
+
+Aby pobrać najnowsze zmiany i zaktualizować projekt, wykonaj wewnątrz folderu `date-roulette`:
+
+```bash
+git pull && npm install
+```
+*(npm install upewni się, że wszystkie nowe biblioteki i skrypty systemowe są zaktualizowane).*
+
+---
+
 ## 🌍 Komendy Globalne
 
 Po zakończeniu instalacji możesz zarządzać projektem z dowolnego miejsca w terminalu:
