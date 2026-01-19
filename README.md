@@ -1,33 +1,62 @@
 # Date Roulette
 
-A Next.js application designed to help users randomize date ideas, featuring a localized Polish interface and a diverse collection of activities.
+Aplikacja "Date Roulette" została zaprojektowana do pracy w **100% lokalnie i offline**. GitHub służy wyłącznie do udostępniania kodu źródłowego.
 
 ## Opis projektu
 
-"Date Roulette" to aplikacja webowa stworzona, aby ułatwić wybór pomysłu na randkę. Projekt jest w pełni zlokalizowany w języku polskim i oferuje interaktywny sposób na losowanie aktywności.
+"Date Roulette" to interaktywna aplikacja webowa w języku polskim, która pomaga losować pomysły na randkę z lokalnej bazy danych. Wszystkie dane są przechowywane wewnątrz projektu, co zapewnia pełną prywatność i szybkość działania bez dostępu do Internetu.
 
-## Instrukcja instalacji
+## Szybki start (Lokalnie)
 
-Aby zainstalować zależności projektu, uruchom poniższą komendę w terminalu:
-
+### 1. Automatyczny Setup (Linux/macOS)
+Uruchom skrypt, aby automatycznie zainstalować zależności:
 ```bash
-npm install
+./setup.sh
 ```
 
-## Instrukcja uruchomienia lokalnego
-
-Aby uruchomić serwer deweloperski, wykonaj:
-
+### 2. Uruchomienie deweloperskie
 ```bash
 npm run dev
 ```
+Otwórz [http://localhost:3000](http://localhost:3000) w przeglądarce.
 
-Otwórz [http://localhost:3000](http://localhost:3000) w przeglądarce, aby zobaczyć wynik.
+---
 
-## Stos technologiczny
+## Docker (Zalecane)
 
-Projekt został zbudowany przy użyciu nowoczesnych technologii webowych:
+Jeśli masz zainstalowanego Dockera, możesz uruchomić aplikację jedną komendą, nie martwiąc się o środowisko Node.js:
 
-- **Next.js**: Framework React do renderowania po stronie serwera i generowania statycznych stron.
-- **React**: Biblioteka JavaScript do budowania interfejsów użytkownika.
-- **Tailwind CSS**: Framework CSS typu utility-first do szybkiego stylowania.
+```bash
+docker-compose up
+```
+Aplikacja będzie dostępna pod adresem `localhost:3000`.
+
+---
+
+## Rozwiązywanie problemów
+
+### Błąd: Port 3000 jest już w użyciu
+Jeśli zobaczysz błąd informujący, że port 3000 jest zajęty, możesz uruchomić aplikację na innym porcie:
+
+**NPM:**
+```bash
+PORT=3001 npm run dev
+```
+
+**Docker:**
+Zmień mapowanie portów w `docker-compose.yml`:
+```yaml
+ports:
+  - "3001:3000"
+```
+
+### Problemy z instalacją modułów
+Upewnij się, że masz zainstalowaną wersję Node.js 18 lub nowszą. Jeśli błędy nadal występują, spróbuj usunąć folder `node_modules` i uruchomić `./setup.sh` ponownie.
+
+---
+
+## Stos technologiczny lokalny
+
+- **Next.js**: Framework React.
+- **Tailwind CSS**: Stylowanie.
+- **Local JSON/Data**: Brak zewnętrznych baz danych czy API.
