@@ -1,108 +1,65 @@
-# 🎡 Date Roulette
+# Date Roulette 🎲
 
-**Date Roulette** to prosty i estetyczny generator pomysłów na randki, stworzony z myślą o użytkownikach, którzy chcą urozmaicić swój czas wolny bez zbędnego planowania.
-
----
-
-## 💻 1. Instalacja WSL i Ubuntu (Windows)
-
-Jeśli nie masz jeszcze zainstalowanego środowiska Linux na Windowsie, otwórz **PowerShell** lub **Wiersz polecenia** jako administrator i wpisz:
-
-```powershell
-# Instaluje WSL oraz domyślną dystrybucję (zazwyczaj Ubuntu)
-wsl --install
-```
-
-Jeśli masz już WSL, ale chcesz zainstalować konkretnie **Ubuntu**, użyj:
-```powershell
-wsl --install -d Ubuntu
-```
-
-Po zakończeniu instalacji zrestartuj komputer. Po restarcie otworzy się okno terminala Ubuntu – skonfiguruj w nim swoją nazwę użytkownika i hasło.
-
-> [!TIP]
-> Ubuntu możesz również zainstalować bezpośrednio z **Microsoft Store**, wyszukując frazę "Ubuntu".
+**Date Roulette** to interaktywny generator pomysłów na randki, zaprojektowany do szybkiego i lokalnego działania na Twoim komputerze.
 
 ---
 
-## 🟢 2. Instalacja Node.js (Ubuntu / WSL)
+## ⚡ Szybki Start (TL;DR)
 
-Zalecamy użycie **nvm** (Node Version Manager), aby łatwo zarządzać wersjami Node.js bez problemów z uprawnieniami. W terminalu Ubuntu (WSL) wpisz:
+Skopiuj i wklej poniższą komendę w terminalu WSL (Ubuntu), aby uruchomić projekt w kilka sekund:
 
-### Instalacja nvm:
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-```
-*(Po tej komendzie zamknij i otwórz terminal ponownie).*
-
-### Instalacja Node.js:
-```bash
-nvm install --lts
+git clone https://github.com/r0jooo/date-roulette.git && cd date-roulette && npm install && npm run dev
 ```
 
 ---
 
-## 🚀 3. Pobieranie i instalacja projektu
+## 🐧 Pełna Instrukcja WSL Ubuntu
 
-Gdy Twoje środowisko jest gotowe, wykonaj poniższe kroki w terminalu Ubuntu (WSL):
+### Krok 1: Środowisko
+Upewnij się, że masz zainstalowany Node.js (wersja 18 lub nowsza). Sprawdzisz to komendą:
+```bash
+node -v
+```
 
-### Klonowanie repozytorium
+### Krok 2: Instalacja
+Jeśli nie użyłeś Szybkiego Startu, wykonaj standardową instalację:
 ```bash
 git clone https://github.com/r0jooo/date-roulette.git
-```
-
-### Wejście do folderu projektu
-```bash
 cd date-roulette
-```
-
-### Instalacja bibliotek
-```bash
 npm install
 ```
 
----
-
-## 🏃‍♂️ Uruchamianie aplikacji
-
-Aby wystartować serwer deweloperski, użyj komendy:
+### Krok 3: Uruchomienie
+Wystartuj serwer deweloperski:
 ```bash
 npm run dev
 ```
-
-🌐 **Dostęp z Windowsa:**
-Po uruchomieniu komendy w WSL, Twoja aplikacja będzie dostępna bezpośrednio w przeglądarce pod adresem:
-**[http://localhost:3000](http://localhost:3000)**
+🌐 Aplikacja jest dostępna pod adresem: **[http://localhost:3000](http://localhost:3000)**
 
 ---
 
-## 📁 Struktura plików
+## 🔄 Aktualizacja projektu
 
-Oto krótka legenda dotycząca tego, co znajdziesz w folderze `src/`:
-
-*   `src/app/` – Główne strony i layouty aplikacji (Next.js App Router).
-*   `src/components/` – Podzielone na mniejsze części elementy interfejsu (np. przyciski, karty).
-*   `src/data/` – Pliki JSON lub stałe z bazą pomysłów na randki.
-
----
-
-## 🔧 Rozwiązywanie problemów (Troubleshooting)
-
-### Błąd portu (EADDRINUSE)
-Jeśli zobaczysz błąd mówiący, że port 3000 jest już zajęty, możesz go szybko zwolnić komendą:
+Aby pobrać najnowsze funkcje i poprawki, wykonaj wewnątrz folderu projektu:
 
 ```bash
-sudo fuser -k 3000/tcp
+git pull && npm install
 ```
-
-Następnie spróbuj ponownie uruchomić `npm run dev`.
 
 ---
 
-## 🐳 Alternatywa: Docker
+## 🛠 Centrum Pomocy (Troubleshooting)
 
-Jeśli wolisz Docker, możesz uruchomić projekt jedną komendą:
-```bash
-docker-compose up
-```
-*(Wymaga zainstalowanego Docker Desktop z włączoną integracją WSL).*
+| Problem | Rozwiązanie (Komenda) |
+| :--- | :--- |
+| **Brak Node.js** | Zainstaluj przez NVM: `nvm install --lts` |
+| **Port 3000 zajęty** | Zwolnij port: `sudo fuser -k 3000/tcp` |
+| **Błąd grid.svg (404)** | Upewnij się, że plik istnieje w `public/grid.svg` |
+
+---
+
+## 📁 Struktura src/
+*   `app/` – Strumień stron i layoutów (Next.js).
+*   `components/` – Moduły interfejsu użytkownika.
+*   `data/` – Baza pomysłów na randki.
