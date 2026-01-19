@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Date Roulette - Automated Setup
-# Konfiguracja globalnych komend i autostartu
+# Konfiguracja globalnych komend
 
-echo "🚀 Konfigurowanie globalnych komend i autostartu (może wymagać hasła sudo)..."
+echo "🚀 Konfigurowanie globalnych komend (może wymagać hasła sudo)..."
 
 # 1. Sprawdzenie środowiska (Linux/WSL)
 IS_LINUX=false
@@ -12,7 +12,7 @@ if [ "$(uname)" = "Linux" ]; then
 fi
 
 if [ "$IS_LINUX" = false ]; then
-    echo "⚠️  OSTRZEŻENIE: Wykryto system inny niż Linux. Automatyczna konfiguracja komend i autostartu (PM2/CLI) jest wspierana tylko na Linux/WSL Ubuntu."
+    echo "⚠️  OSTRZEŻENIE: Wykryto system inny niż Linux. Automatyczna konfiguracja komend CLI jest wspierana tylko na Linux/WSL Ubuntu."
     echo "Aplikacja została poprawnie zainstalowana, ale musisz ją uruchamiać ręcznie przez 'npm run dev'."
     exit 0
 fi
@@ -43,20 +43,6 @@ EOF
 sudo chmod +x $START_COMMAND
 sudo chmod +x $STOP_COMMAND
 
-# 4. Konfiguracja PM2 dla autostartu
-echo "📦 Konfigurowanie PM2 dla autostartu..."
-
-if ! command -v pm2 &> /dev/null
-then
-    echo "💡 PM2 nie jest zainstalowany. Instaluję PM2 globalnie..."
-    sudo npm install -g pm2
-fi
-
-# Uruchomienie projektu przez PM2
-pm2 start npm --name "date-roulette" -- run dev --cwd "$PROJECT_DIR"
-pm2 save
-
 echo "✅ Gotowe! Możesz teraz używać komend:"
 echo "👉 'date-start' - aby uruchomić projekt ręcznie"
 echo "👉 'date-stop'  - aby zwolnić port 3000"
-echo "👉 PM2 automatycznie zadba o działanie aplikacji w tle."
