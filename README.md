@@ -4,19 +4,6 @@
 
 ---
 
-## 🛠 Wymagania wstępne (Prerequisites)
-
-Zanim zaczniesz, upewnij się, że masz przygotowane środowisko:
-*   **WSL Ubuntu** (zainstalowane i skonfigurowane).
-*   **Node.js** (zalecana wersja **18 lub nowsza**).
-
-Aby sprawdzić, czy masz zainstalowany Node.js, wpisz w terminalu:
-```bash
-node -v
-```
-
----
-
 ## 💻 1. Instalacja WSL i Ubuntu (Windows)
 
 Jeśli nie masz jeszcze zainstalowanego środowiska Linux na Windowsie, otwórz **PowerShell** lub **Wiersz polecenia** jako administrator i wpisz:
