@@ -17,21 +17,50 @@ node -v
 
 ---
 
-## 🚀 Instrukcja instalacji krok po kroku
+## 💻 1. Instalacja WSL (Windows)
 
-Wykonaj poniższe kroki w terminalu Twojego Ubuntu (WSL):
+Jeśli nie masz jeszcze zainstalowanego środowiska Linux na Windowsie, otwórz **PowerShell** jako administrator i wpisz:
 
-### 1. Klonowanie repozytorium
+```powershell
+wsl --install
+```
+
+Po zakończeniu instalacji zrestartuj komputer. Po restarcie skonfiguruj swoją nazwę użytkownika i hasło w terminalu Ubuntu.
+
+---
+
+## 🟢 2. Instalacja Node.js (Ubuntu / WSL)
+
+Zalecamy użycie **nvm** (Node Version Manager), aby łatwo zarządzać wersjami Node.js bez problemów z uprawnieniami. W terminalu Ubuntu (WSL) wpisz:
+
+### Instalacja nvm:
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+*(Po tej komendzie zamknij i otwórz terminal ponownie).*
+
+### Instalacja Node.js:
+```bash
+nvm install --lts
+```
+
+---
+
+## 🚀 3. Pobieranie i instalacja projektu
+
+Gdy Twoje środowisko jest gotowe, wykonaj poniższe kroki w terminalu Ubuntu (WSL):
+
+### Klonowanie repozytorium
 ```bash
 git clone https://github.com/r0jooo/date-roulette.git
 ```
 
-### 2. Wejście do folderu projektu
+### Wejście do folderu projektu
 ```bash
 cd date-roulette
 ```
 
-### 3. Instalacja bibliotek
+### Instalacja bibliotek
 ```bash
 npm install
 ```
