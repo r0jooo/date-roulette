@@ -45,17 +45,12 @@ Aby zainstalować Node.js w najlepszy możliwy sposób, użyj menedżera wersji 
 
 Dzięki pełnej automatyzacji, uruchomienie projektu sprowadza się do dwóch prostych kroków:
 
-### 1. Klonowanie repozytorium
-Otwórz terminal WSL (Ubuntu) i wpisz:
-```bash
-git clone https://github.com/r0jooo/date-roulette.git && cd date-roulette
-```
-
-### 2. Instalacja i Automatyczna Konfiguracja
-Uruchom poniższą komendę. **npm install** automatycznie zainstaluje zależności, skonfiguruje autostart (PM2) oraz utworzy komendę `date-start` w Twoim systemie:
-```bash
-npm install
-```
+    git clone https://github.com/r0jooo/date-roulette.git && cd date-roulette && npm install
+    ```
+2.  **Uruchomienie**: Po zakończeniu instalacji możesz w dowolnym momencie uruchomić aplikację komendą:
+    ```bash
+    date-start
+    
 
 ---
 
