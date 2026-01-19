@@ -92,4 +92,19 @@ Po zakończeniu instalacji możesz zarządzać projektem z dowolnego miejsca w t
 ## 📁 Struktura projektu
 *   `src/app/` – Strona główna i layouty.
 *   `src/components/` – Moduły interfejsu.
-*   `scripts/` – Skrypty automatyzacji instalacji.
+*   `scripts/` – Skrypty automatyzacji (instalacja, odinstalowanie).
+
+---
+
+## 🗑️ Odinstalowanie
+
+Jeśli chcesz całkowicie usunąć projekt wraz z komendami systemowymi:
+
+1.  Uruchom skrypt odinstalowujący:
+    ```bash
+    sh scripts/uninstall.sh
+    ```
+2.  (Opcjonalnie) Usuń folder projektu:
+    ```bash
+    cd .. && rm -rf date-roulette
+    ```
