@@ -2301,5 +2301,215 @@
         "budget": "Darmowy",
         "vibe": "Pikantny",
         "id": 329
+    },
+    {
+        "id": 330,
+        "title": "Nocne zwiedzanie miasta rowerem",
+        "description": "Przejedźcie się po pustych ulicach miasta, gdy wszystko jest oświetlone latarniami. To zupełnie inna perspektywa.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 331,
+        "title": "Degustacja serów i miodów",
+        "description": "Kupcie kilka rodzajów serów i różnych miodów. Szukajcie najlepszych połączeń smakowych.",
+        "budget": "Średni",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 332,
+        "title": "Kurs pierwszej pomocy dla par",
+        "description": "Nauczcie się czegoś pożytecznego, co może uratować życie. Praktyka zbliża i buduje zaufanie.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 333,
+        "title": "Domowa pizza na cienkim cieście",
+        "description": "Rywalizujcie o to, kto zrobi lepszy kształt pizzy lub znajdzie ciekawsze połączenie składników.",
+        "budget": "Niski",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 334,
+        "title": "Joga na świeżym powietrzu",
+        "description": "Zabierzcie maty do parku i zróbcie sesję jogi przy zachodzie lub wschodzie słońca.",
+        "budget": "Darmowy",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 335,
+        "title": "Muzyka klasyczna przy świecach",
+        "description": "Włączcie playlistę z muzyką klasyczną, zgaście światła i po prostu słuchajcie, rozmawiając o emocjach.",
+        "budget": "Darmowy",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 336,
+        "title": "Planowanie wymarzonej podróży",
+        "description": "Wybierzcie kraj, ustalcie plan zwiedzania, znajdźcie hotele i lokalne jedzenie. Nawet jeśli na razie tylko marzycie.",
+        "budget": "Darmowy",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 337,
+        "title": "Badminton w parku",
+        "description": "Klasyczna zabawa na świeżym powietrzu. Kto przegra, przygotowuje kolację!",
+        "budget": "Niski",
+        "vibe": "Aktywny"
+    },
+    {
+        "id": 338,
+        "title": "Warsztaty malowania ceramiki",
+        "description": "Odwiedźcie studio, gdzie możecie pomalować gotowe naczynia. Zróbcie sobie nawzajem pamiątkowe kubki.",
+        "budget": "Średni",
+        "vibe": "Kreatywny"
+    },
+    {
+        "id": 339,
+        "title": "Piknik na dachu",
+        "description": "Jeśli macie dostęp do dachu z widokiem, zróbcie tam kolację. Widok z góry zawsze dodaje magii.",
+        "budget": "Niski",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 340,
+        "title": "Dokumenty o kosmosie",
+        "description": "Obejrzyjcie film o wszechświecie. Nic tak nie zbliża jak świadomość, jak mali jesteśmy w skali kosmosu.",
+        "budget": "Darmowy",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 341,
+        "title": "Spacer po ogrodzie botanicznym",
+        "description": "Odkryjcie rzadkie gatunki roślin i cieszcie się ciszą w sercu miasta.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 342,
+        "title": "Pieczenie chleba na zakwasie",
+        "description": "To proces, który uczy cierpliwości. Zapach świeżo pieczonego chleba w domu jest nie do pobicia.",
+        "budget": "Niski",
+        "vibe": "Relaks"
+    },
+    {
+        "id": 343,
+        "title": "Wieczór w kręgielni",
+        "description": "Trochę zdrowej rywalizacji i głośnej muzyki. Kto zdobędzie więcej strike'ów?",
+        "budget": "Średni",
+        "vibe": "Rozrywka"
+    },
+    {
+        "id": 344,
+        "title": "Wizyta w planetarium",
+        "description": "Podziwiajcie gwiazdy w dzień. To jedno z najbardziej romantycznych miejsc na mapie miasta.",
+        "budget": "Średni",
+        "vibe": "Romantyczny"
+    },
+    {
+        "id": 345,
+        "title": "Masaż z piórkiem i lodem",
+        "description": "Eksperymentujcie z różnymi temperaturami i fakturami na skórze partnera.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 346,
+        "title": "Kąpiel w blasku świec",
+        "description": "Zgaście światło, zapalcie mnóstwo świec i wejdźcie razem do wanny przy nastrojowej muzyce.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 347,
+        "title": "Nigdy przenigdy (18+)",
+        "description": "Klasyczna gra, ale tym razem pytania dotyczą wyłącznie sfery intymnej i fantazji.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 348,
+        "title": "Wybieranie bielizny online",
+        "description": "Usiądźcie razem przed komputerem i wybierzcie coś, co partner/partnerka chciałby zobaczyć na Tobie.",
+        "budget": "Wysoki",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 349,
+        "title": "Czytanie literatury erotycznej",
+        "description": "Wybierzcie nastrojową książkę i czytajcie sobie nawzajem najciekawsze fragmenty na głos.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 350,
+        "title": "Domowa sesja buduarowa",
+        "description": "Zróbcie sobie nawzajem zmysłowe zdjęcia. Dbajcie o klimat i bezpieczeństwo (tylko dla Was!).",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 351,
+        "title": "Jedzenie z ciała partnera",
+        "description": "Owoce, bita śmietana lub czekolada. Zamieńcie kolację w zmysłową zabawę.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 352,
+        "title": "Wyzwanie 'Bez dotyku'",
+        "description": "Ustalcie czas, w którym możecie być blisko, ale nie możecie się dotykać. Budujcie napięcie.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 353,
+        "title": "Nieznajomi w barze",
+        "description": "Umówcie się w hotelowym barze. Udawajcie, że widzicie się pierwszy raz i zacznijcie flirt od zera.",
+        "budget": "Średni",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 354,
+        "title": "Zabawa z ciepłym woskiem",
+        "description": "Użyjcie specjalnych świec do masażu o bezpiecznej temperaturze topnienia.",
+        "budget": "Średni",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 355,
+        "title": "Zmysłowy wieczór filmowy",
+        "description": "Obejrzyjcie nastrojowy film z dużą dawką napięcia. Niech będzie inspiracją.",
+        "budget": "Niski",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 356,
+        "title": "Kości z zadaniami",
+        "description": "Rzucajcie kostką, gdzie każda liczba oznacza inne zmysłowe zadanie (pocałunek, masaż, itp.).",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 357,
+        "title": "Eksperymenty z lodem",
+        "description": "Poczucie lodu na rozgrzanej skórze potrafi być niezwykle elektryzujące.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 358,
+        "title": "Erotyczne opowiadanie",
+        "description": "Piszcie na zmianę po jednym zdaniu pikantnej historii, aż dojdziecie do finału.",
+        "budget": "Darmowy",
+        "vibe": "Pikantny"
+    },
+    {
+        "id": 359,
+        "title": "Staycation w luksusowym hotelu",
+        "description": "Zarezerwujcie noc w najlepszym hotelu w mieście tylko po to, by cieszyć się sobą w nowym otoczeniu.",
+        "budget": "Wysoki",
+        "vibe": "Pikantny"
     }
 ]
