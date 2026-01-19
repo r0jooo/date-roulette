@@ -17,15 +17,24 @@ node -v
 
 ---
 
-## 💻 1. Instalacja WSL (Windows)
+## 💻 1. Instalacja WSL i Ubuntu (Windows)
 
-Jeśli nie masz jeszcze zainstalowanego środowiska Linux na Windowsie, otwórz **PowerShell** jako administrator i wpisz:
+Jeśli nie masz jeszcze zainstalowanego środowiska Linux na Windowsie, otwórz **PowerShell** lub **Wiersz polecenia** jako administrator i wpisz:
 
 ```powershell
+# Instaluje WSL oraz domyślną dystrybucję (zazwyczaj Ubuntu)
 wsl --install
 ```
 
-Po zakończeniu instalacji zrestartuj komputer. Po restarcie skonfiguruj swoją nazwę użytkownika i hasło w terminalu Ubuntu.
+Jeśli masz już WSL, ale chcesz zainstalować konkretnie **Ubuntu**, użyj:
+```powershell
+wsl --install -d Ubuntu
+```
+
+Po zakończeniu instalacji zrestartuj komputer. Po restarcie otworzy się okno terminala Ubuntu – skonfiguruj w nim swoją nazwę użytkownika i hasło.
+
+> [!TIP]
+> Ubuntu możesz również zainstalować bezpośrednio z **Microsoft Store**, wyszukując frazę "Ubuntu".
 
 ---
 

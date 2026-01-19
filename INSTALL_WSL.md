@@ -4,9 +4,21 @@ Ta instrukcja przeprowadzi Cię krok po kroku przez proces uruchomienia projektu
 
 ---
 
-## Krok 1: Przygotowanie środowiska
+## Krok 1: Instalacja WSL i Ubuntu (Windows)
 
-Zacznij od aktualizacji listy pakietów:
+Jeśli nie masz jeszcze WSL, otwórz **PowerShell** jako administrator i wpisz:
+
+```powershell
+wsl --install
+```
+
+W przypadku, gdy masz już WSL, a chcesz doinstalować dystrybucję **Ubuntu**:
+
+```powershell
+wsl --install -d Ubuntu
+```
+
+Po instalacji zrestartuj komputer. Po restarcie skonfiguruj użytkownika i hasło w terminalu Ubuntu. Następnie przejdź do aktualizacji pakietów:
 
 ```bash
 sudo apt update
