@@ -45,12 +45,14 @@ Aby zainstalować Node.js w najlepszy możliwy sposób, użyj menedżera wersji 
 
 Dzięki pełnej automatyzacji, uruchomienie projektu sprowadza się do dwóch prostych kroków:
 
+1.  **Pobranie i instalacja**:
+    ```bash
     git clone https://github.com/r0jooo/date-roulette.git && cd date-roulette && npm install
     ```
 2.  **Uruchomienie**: Po zakończeniu instalacji możesz w dowolnym momencie uruchomić aplikację komendą:
     ```bash
     date-start
-    
+    ```
 
 ---
 
