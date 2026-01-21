@@ -4,5 +4,5 @@ services:
   date-roulette:
     build: .
     ports:
-      - "3000:3000"
+      - "80:80"
     restart: always

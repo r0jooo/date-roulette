@@ -53,6 +53,10 @@ Dzięki pełnej automatyzacji, uruchomienie projektu sprowadza się do dwóch pr
     ```bash
     date-start
     ```
+    *(Skrypt poprosi o hasło `sudo`, ponieważ aplikacja działa teraz na porcie 80).*
+
+3.  **Wyświetlanie strony**: Aplikacja jest dostępna pod adresem:
+    👉 **[http://localhost](http://localhost)**
 
 ---
 
@@ -71,8 +75,8 @@ git pull && npm install
 
 Po zakończeniu instalacji możesz zarządzać projektem z dowolnego miejsca w terminalu:
 
-*   `date-start` – ręczne uruchomienie serwera.
-*   `date-stop` – zatrzymanie serwera i zwolnienie portu 3000.
+*   `date-start` – ręczne uruchomienie serwera (wymaga `sudo`).
+*   `date-stop` – zatrzymanie serwera i zwolnienie portu 80.
 
 ---
 
@@ -82,7 +86,7 @@ Po zakończeniu instalacji możesz zarządzać projektem z dowolnego miejsca w t
 | :--- | :--- |
 | **Brak Node.js** | Zainstaluj przez NVM: `nvm install --lts` |
 | **Błąd uprawnień** | Skrypt setup może poprosić o hasło `sudo` do utworzenia komend globalnych. |
-| **Port 3000 zajęty** | Użyj komendy `date-stop` lub `sudo fuser -k 3000/tcp`. |
+| **Port 80 zajęty** | Użyj komendy `date-stop` lub `sudo fuser -k 80/tcp`. |
 
 ---
 

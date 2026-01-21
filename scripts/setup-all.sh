@@ -29,14 +29,14 @@ echo "⚙️  Tworzenie komend globalnych w /usr/local/bin/..."
 sudo bash -c "cat > $START_COMMAND" <<EOF
 #!/bin/bash
 cd $PROJECT_DIR
-npm run dev
+sudo npm run dev
 EOF
 
 # Tworzenie date-stop
 sudo bash -c "cat > $STOP_COMMAND" <<EOF
 #!/bin/bash
-echo "🛑 Zatrzymywanie serwera na porcie 3000..."
-sudo fuser -k 3000/tcp
+echo "🛑 Zatrzymywanie serwera na porcie 80..."
+sudo fuser -k 80/tcp
 EOF
 
 # Uprawnienia dla komend
@@ -45,4 +45,4 @@ sudo chmod +x $STOP_COMMAND
 
 echo "✅ Gotowe! Możesz teraz używać komend:"
 echo "👉 'date-start' - aby uruchomić projekt ręcznie"
-echo "👉 'date-stop'  - aby zwolnić port 3000"
+echo "👉 'date-stop'  - aby zwolnić port 80"
